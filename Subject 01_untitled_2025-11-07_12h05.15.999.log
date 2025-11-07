@@ -1,0 +1,1492 @@
+34.2310 	INFO 	Loaded monitor calibration from ['2025_08_12 09:33']
+34.2744 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1200]. Using actual size
+34.6474 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+34.6475 	INFO 	OpenGL version supported by driver is 4..
+34.7406 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027033746FE0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027033747040>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002703383F070>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+34.7407 	EXP 	window1: backgroundImage = ''
+34.7407 	EXP 	window1: backgroundFit = 'none'
+35.4061 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+35.4061 	EXP 	window1: recordFrameIntervals = False
+35.6845 	EXP 	window1: recordFrameIntervals = True
+35.8686 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+35.8687 	EXP 	window1: recordFrameIntervals = False
+35.9550 	INFO 	keyboard.Keyboard is using ptb backend.
+35.9552 	INFO 	keyboard.Keyboard is using ptb backend.
+35.9552 	EXP 	untitled: status = STARTED
+35.9610 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+36.0307 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0119 	EXP 	Imported discounting.csv as conditions, 7 conditions, 3 params
+0.0145 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.1218 	EXP 	text: height = np.float64(0.05)
+0.1218 	EXP 	text: height = np.float64(0.05)
+0.1218 	EXP 	text: height = np.float64(0.05)
+0.1218 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+0.1218 	EXP 	fixation: autoDraw = True
+1.0042 	INFO 	Keyboard events cleared
+1.0041 	EXP 	text: autoDraw = True
+1.1215 	EXP 	fixation: autoDraw = False
+4.8832 	EXP 	Device response: <KeyPress from None: t=4.8514541001059115, value=l, duration=None>
+4.8836 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+4.8944 	DATA 	Keypress: l
+4.8975 	EXP 	fixation: autoDraw = False
+4.8975 	EXP 	text: autoDraw = False
+4.8975 	EXP 	text: height = np.float64(0.05)
+4.8975 	EXP 	text: height = np.float64(0.05)
+4.8975 	EXP 	text: height = np.float64(0.05)
+4.8975 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+4.8975 	EXP 	fixation: autoDraw = True
+4.9764 	EXP 	Device response: <KeyPress from None: t=4.8514541001059115, value=l, duration=0.11062469985336065>
+5.8976 	INFO 	Keyboard events cleared
+5.8975 	EXP 	text: autoDraw = True
+5.9114 	EXP 	fixation: autoDraw = False
+8.2473 	EXP 	Device response: <KeyPress from None: t=8.237281100125983, value=t, duration=None>
+8.2476 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+8.2542 	DATA 	Keypress: t
+8.2624 	EXP 	fixation: autoDraw = False
+8.2624 	EXP 	text: autoDraw = False
+8.2624 	EXP 	text: height = np.float64(0.05)
+8.2624 	EXP 	text: height = np.float64(0.05)
+8.2624 	EXP 	text: height = np.float64(0.05)
+8.2624 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+8.2624 	EXP 	fixation: autoDraw = True
+8.4134 	EXP 	Device response: <KeyPress from None: t=8.237281100125983, value=t, duration=0.16537889977917075>
+9.2481 	INFO 	Keyboard events cleared
+9.2480 	EXP 	text: autoDraw = True
+9.2644 	EXP 	fixation: autoDraw = False
+12.7693 	EXP 	Device response: <KeyPress from None: t=12.764984000008553, value=t, duration=None>
+12.7696 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+12.7751 	DATA 	Keypress: t
+12.7849 	EXP 	fixation: autoDraw = False
+12.7849 	EXP 	text: autoDraw = False
+12.7849 	EXP 	text: height = np.float64(0.05)
+12.7849 	EXP 	text: height = np.float64(0.05)
+12.7849 	EXP 	text: height = np.float64(0.05)
+12.7849 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+12.7849 	EXP 	fixation: autoDraw = True
+12.9360 	EXP 	Device response: <KeyPress from None: t=12.764984000008553, value=t, duration=0.16367299994453788>
+13.7688 	INFO 	Keyboard events cleared
+13.7687 	EXP 	text: autoDraw = True
+13.7872 	EXP 	fixation: autoDraw = False
+17.9412 	EXP 	Device response: <KeyPress from None: t=17.931431600125507, value=l, duration=None>
+17.9416 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+17.9470 	DATA 	Keypress: l
+17.9594 	EXP 	fixation: autoDraw = False
+17.9594 	EXP 	text: autoDraw = False
+17.9594 	EXP 	text: height = np.float64(0.05)
+17.9594 	EXP 	text: height = np.float64(0.05)
+17.9594 	EXP 	text: height = np.float64(0.05)
+17.9594 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+17.9594 	EXP 	fixation: autoDraw = True
+18.1426 	EXP 	Device response: <KeyPress from None: t=17.931431600125507, value=l, duration=0.20982249989174306>
+18.9419 	INFO 	Keyboard events cleared
+18.9417 	EXP 	text: autoDraw = True
+18.9586 	EXP 	fixation: autoDraw = False
+23.0159 	EXP 	Device response: <KeyPress from None: t=23.002407799940556, value=l, duration=None>
+23.0163 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+23.0236 	DATA 	Keypress: l
+23.0288 	EXP 	fixation: autoDraw = False
+23.0288 	EXP 	text: autoDraw = False
+23.0288 	EXP 	text: height = np.float64(0.05)
+23.0288 	EXP 	text: height = np.float64(0.05)
+23.0288 	EXP 	text: height = np.float64(0.05)
+23.0288 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+23.0288 	EXP 	fixation: autoDraw = True
+23.1828 	EXP 	Device response: <KeyPress from None: t=23.002407799940556, value=l, duration=0.16474040015600622>
+24.0308 	INFO 	Keyboard events cleared
+24.0307 	EXP 	fixation: autoDraw = False
+24.0307 	EXP 	text: autoDraw = True
+29.9900 	EXP 	Device response: <KeyPress from None: t=29.97701820009388, value=t, duration=None>
+29.9904 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+29.9961 	DATA 	Keypress: t
+30.0028 	EXP 	fixation: autoDraw = False
+30.0028 	EXP 	text: autoDraw = False
+30.0028 	EXP 	text: height = np.float64(0.05)
+30.0028 	EXP 	text: height = np.float64(0.05)
+30.0028 	EXP 	text: height = np.float64(0.05)
+30.0028 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+30.0028 	EXP 	fixation: autoDraw = True
+30.1547 	EXP 	Device response: <KeyPress from None: t=29.97701820009388, value=t, duration=0.17320699989795685>
+30.9886 	INFO 	Keyboard events cleared
+30.9884 	EXP 	text: autoDraw = True
+31.0073 	EXP 	fixation: autoDraw = False
+36.4103 	EXP 	Device response: <KeyPress from None: t=36.40021280013025, value=t, duration=None>
+36.4106 	EXP 	New trial (rep=1, index=0): <Trial 7 (0 in rep 1) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 7, 'thisTrialN': 0, 'thisRepN': 1}>
+36.4146 	DATA 	Keypress: t
+36.4285 	EXP 	fixation: autoDraw = False
+36.4285 	EXP 	text: autoDraw = False
+36.4285 	EXP 	text: height = np.float64(0.05)
+36.4285 	EXP 	text: height = np.float64(0.05)
+36.4285 	EXP 	text: height = np.float64(0.05)
+36.4285 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+36.4285 	EXP 	fixation: autoDraw = True
+36.5959 	EXP 	Device response: <KeyPress from None: t=36.40021280013025, value=t, duration=0.1794214998371899>
+37.4124 	INFO 	Keyboard events cleared
+37.4122 	EXP 	text: autoDraw = True
+37.4294 	EXP 	fixation: autoDraw = False
+38.2645 	EXP 	Device response: <KeyPress from None: t=38.25848080008291, value=l, duration=None>
+38.2649 	EXP 	New trial (rep=1, index=1): <Trial 8 (1 in rep 1) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 8, 'thisTrialN': 1, 'thisRepN': 1}>
+38.2705 	DATA 	Keypress: l
+38.2822 	EXP 	fixation: autoDraw = False
+38.2822 	EXP 	text: autoDraw = False
+38.2822 	EXP 	text: height = np.float64(0.05)
+38.2822 	EXP 	text: height = np.float64(0.05)
+38.2822 	EXP 	text: height = np.float64(0.05)
+38.2822 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+38.2822 	EXP 	fixation: autoDraw = True
+38.3803 	EXP 	Device response: <KeyPress from None: t=38.25848080008291, value=l, duration=0.1146900998428464>
+39.2666 	INFO 	Keyboard events cleared
+39.2665 	EXP 	text: autoDraw = True
+39.2809 	EXP 	fixation: autoDraw = False
+46.5896 	EXP 	Device response: <KeyPress from None: t=46.57463230006397, value=t, duration=None>
+46.5899 	EXP 	New trial (rep=1, index=2): <Trial 9 (2 in rep 1) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 9, 'thisTrialN': 2, 'thisRepN': 1}>
+46.5943 	DATA 	Keypress: t
+46.6055 	EXP 	fixation: autoDraw = False
+46.6055 	EXP 	text: autoDraw = False
+46.6055 	EXP 	text: height = np.float64(0.05)
+46.6055 	EXP 	text: height = np.float64(0.05)
+46.6055 	EXP 	text: height = np.float64(0.05)
+46.6055 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+46.6055 	EXP 	fixation: autoDraw = True
+46.7891 	EXP 	Device response: <KeyPress from None: t=46.57463230006397, value=t, duration=0.20967260003089905>
+47.5908 	INFO 	Keyboard events cleared
+47.5906 	EXP 	text: autoDraw = True
+47.6062 	EXP 	fixation: autoDraw = False
+49.7422 	EXP 	Device response: <KeyPress from None: t=49.74130990006961, value=l, duration=None>
+49.7425 	EXP 	New trial (rep=1, index=3): <Trial 10 (3 in rep 1) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 10, 'thisTrialN': 3, 'thisRepN': 1}>
+49.7472 	DATA 	Keypress: l
+49.7591 	EXP 	fixation: autoDraw = False
+49.7591 	EXP 	text: autoDraw = False
+49.7591 	EXP 	text: height = np.float64(0.05)
+49.7591 	EXP 	text: height = np.float64(0.05)
+49.7591 	EXP 	text: height = np.float64(0.05)
+49.7591 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+49.7591 	EXP 	fixation: autoDraw = True
+49.8599 	EXP 	Device response: <KeyPress from None: t=49.74130990006961, value=l, duration=0.11600479995831847>
+50.7427 	INFO 	Keyboard events cleared
+50.7426 	EXP 	text: autoDraw = True
+50.7611 	EXP 	fixation: autoDraw = False
+52.3127 	EXP 	Device response: <KeyPress from None: t=52.30282530002296, value=t, duration=None>
+52.3132 	EXP 	New trial (rep=1, index=4): <Trial 11 (4 in rep 1) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 11, 'thisTrialN': 4, 'thisRepN': 1}>
+52.3204 	DATA 	Keypress: t
+52.3297 	EXP 	fixation: autoDraw = False
+52.3297 	EXP 	text: autoDraw = False
+52.3297 	EXP 	text: height = np.float64(0.05)
+52.3297 	EXP 	text: height = np.float64(0.05)
+52.3297 	EXP 	text: height = np.float64(0.05)
+52.3297 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+52.3297 	EXP 	fixation: autoDraw = True
+52.5151 	EXP 	Device response: <KeyPress from None: t=52.30282530002296, value=t, duration=0.2045084999408573>
+53.3119 	INFO 	Keyboard events cleared
+53.3119 	EXP 	text: autoDraw = True
+53.3468 	EXP 	fixation: autoDraw = False
+58.6684 	EXP 	Device response: <KeyPress from None: t=58.664313399931416, value=l, duration=None>
+58.6687 	EXP 	New trial (rep=1, index=5): <Trial 12 (5 in rep 1) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 12, 'thisTrialN': 5, 'thisRepN': 1}>
+58.6736 	DATA 	Keypress: l
+58.6847 	EXP 	fixation: autoDraw = False
+58.6847 	EXP 	text: autoDraw = False
+58.6847 	EXP 	text: height = np.float64(0.05)
+58.6847 	EXP 	text: height = np.float64(0.05)
+58.6847 	EXP 	text: height = np.float64(0.05)
+58.6847 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+58.6847 	EXP 	fixation: autoDraw = True
+59.1378 	EXP 	Device response: <KeyPress from None: t=58.664313399931416, value=l, duration=0.46019290015101433>
+59.6693 	INFO 	Keyboard events cleared
+59.6692 	EXP 	text: autoDraw = True
+59.6883 	EXP 	fixation: autoDraw = False
+60.6232 	EXP 	Device response: <KeyPress from None: t=60.612359599908814, value=t, duration=None>
+60.6236 	EXP 	New trial (rep=1, index=6): <Trial 13 (6 in rep 1) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 13, 'thisTrialN': 6, 'thisRepN': 1}>
+60.6284 	DATA 	Keypress: t
+60.6368 	EXP 	fixation: autoDraw = False
+60.6368 	EXP 	text: autoDraw = False
+60.6368 	EXP 	text: height = np.float64(0.05)
+60.6368 	EXP 	text: height = np.float64(0.05)
+60.6368 	EXP 	text: height = np.float64(0.05)
+60.6368 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+60.6368 	EXP 	fixation: autoDraw = True
+60.7888 	EXP 	Device response: <KeyPress from None: t=60.612359599908814, value=t, duration=0.16574329999275506>
+61.6213 	INFO 	Keyboard events cleared
+61.6212 	EXP 	text: autoDraw = True
+61.6396 	EXP 	fixation: autoDraw = False
+62.0915 	EXP 	Device response: <KeyPress from None: t=62.085335900075734, value=t, duration=None>
+62.0918 	EXP 	New trial (rep=2, index=0): <Trial 14 (0 in rep 2) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 14, 'thisTrialN': 0, 'thisRepN': 2}>
+62.0963 	DATA 	Keypress: t
+62.1049 	EXP 	fixation: autoDraw = False
+62.1049 	EXP 	text: autoDraw = False
+62.1049 	EXP 	text: height = np.float64(0.05)
+62.1049 	EXP 	text: height = np.float64(0.05)
+62.1049 	EXP 	text: height = np.float64(0.05)
+62.1049 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+62.1049 	EXP 	fixation: autoDraw = True
+62.2757 	EXP 	Device response: <KeyPress from None: t=62.085335900075734, value=t, duration=0.17703829985111952>
+63.0913 	INFO 	Keyboard events cleared
+63.0911 	EXP 	text: autoDraw = True
+63.1077 	EXP 	fixation: autoDraw = False
+63.7090 	EXP 	Device response: <KeyPress from None: t=63.69383540004492, value=l, duration=None>
+63.7093 	EXP 	New trial (rep=2, index=1): <Trial 15 (1 in rep 2) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 15, 'thisTrialN': 1, 'thisRepN': 2}>
+63.7133 	DATA 	Keypress: l
+63.7258 	EXP 	fixation: autoDraw = False
+63.7258 	EXP 	text: autoDraw = False
+63.7258 	EXP 	text: height = np.float64(0.05)
+63.7258 	EXP 	text: height = np.float64(0.05)
+63.7258 	EXP 	text: height = np.float64(0.05)
+63.7258 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+63.7258 	EXP 	fixation: autoDraw = True
+63.8926 	EXP 	Device response: <KeyPress from None: t=63.69383540004492, value=l, duration=0.19213870004750788>
+64.7095 	INFO 	Keyboard events cleared
+64.7094 	EXP 	text: autoDraw = True
+64.7262 	EXP 	fixation: autoDraw = False
+65.3928 	EXP 	Device response: <KeyPress from None: t=65.38520739995874, value=l, duration=None>
+65.3932 	EXP 	New trial (rep=2, index=2): <Trial 16 (2 in rep 2) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 16, 'thisTrialN': 2, 'thisRepN': 2}>
+65.3986 	DATA 	Keypress: l
+65.4095 	EXP 	fixation: autoDraw = False
+65.4095 	EXP 	text: autoDraw = False
+65.4095 	EXP 	text: height = np.float64(0.05)
+65.4095 	EXP 	text: height = np.float64(0.05)
+65.4095 	EXP 	text: height = np.float64(0.05)
+65.4095 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+65.4095 	EXP 	fixation: autoDraw = True
+65.5430 	EXP 	Device response: <KeyPress from None: t=65.38520739995874, value=l, duration=0.15709420014172792>
+66.3936 	INFO 	Keyboard events cleared
+66.3935 	EXP 	text: autoDraw = True
+66.4101 	EXP 	fixation: autoDraw = False
+66.9276 	EXP 	Device response: <KeyPress from None: t=66.9199598999694, value=t, duration=None>
+66.9278 	EXP 	New trial (rep=2, index=3): <Trial 17 (3 in rep 2) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 17, 'thisTrialN': 3, 'thisRepN': 2}>
+66.9332 	DATA 	Keypress: t
+66.9440 	EXP 	fixation: autoDraw = False
+66.9440 	EXP 	text: autoDraw = False
+66.9440 	EXP 	text: height = np.float64(0.05)
+66.9440 	EXP 	text: height = np.float64(0.05)
+66.9440 	EXP 	text: height = np.float64(0.05)
+66.9440 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+66.9440 	EXP 	fixation: autoDraw = True
+67.1285 	EXP 	Device response: <KeyPress from None: t=66.9199598999694, value=t, duration=0.1997512001544237>
+67.9280 	INFO 	Keyboard events cleared
+67.9279 	EXP 	text: autoDraw = True
+67.9461 	EXP 	fixation: autoDraw = False
+68.3979 	DATA 	Keypress: t
+68.4126 	EXP 	Device response: <KeyPress from None: t=68.39728690008633, value=t, duration=None>
+68.4129 	EXP 	New trial (rep=2, index=4): <Trial 18 (4 in rep 2) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 18, 'thisTrialN': 4, 'thisRepN': 2}>
+68.4296 	EXP 	fixation: autoDraw = False
+68.4296 	EXP 	text: autoDraw = False
+68.4296 	EXP 	text: height = np.float64(0.05)
+68.4296 	EXP 	text: height = np.float64(0.05)
+68.4296 	EXP 	text: height = np.float64(0.05)
+68.4296 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+68.4296 	EXP 	fixation: autoDraw = True
+68.5977 	EXP 	Device response: <KeyPress from None: t=68.39728690008633, value=t, duration=0.1838548998348415>
+69.4149 	INFO 	Keyboard events cleared
+69.4147 	EXP 	text: autoDraw = True
+69.4308 	EXP 	fixation: autoDraw = False
+69.8649 	EXP 	Device response: <KeyPress from None: t=69.84880769997835, value=t, duration=None>
+69.8653 	EXP 	New trial (rep=2, index=5): <Trial 19 (5 in rep 2) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 19, 'thisTrialN': 5, 'thisRepN': 2}>
+69.8695 	DATA 	Keypress: t
+69.8813 	EXP 	fixation: autoDraw = False
+69.8813 	EXP 	text: autoDraw = False
+69.8813 	EXP 	text: height = np.float64(0.05)
+69.8813 	EXP 	text: height = np.float64(0.05)
+69.8813 	EXP 	text: height = np.float64(0.05)
+69.8813 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+69.8813 	EXP 	fixation: autoDraw = True
+70.0485 	EXP 	Device response: <KeyPress from None: t=69.84880769997835, value=t, duration=0.18595870002172887>
+70.8664 	INFO 	Keyboard events cleared
+70.8663 	EXP 	text: autoDraw = True
+70.8828 	EXP 	fixation: autoDraw = False
+71.2187 	EXP 	Device response: <KeyPress from None: t=71.21770699997433, value=t, duration=None>
+71.2192 	EXP 	New trial (rep=2, index=6): <Trial 20 (6 in rep 2) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 20, 'thisTrialN': 6, 'thisRepN': 2}>
+71.2237 	DATA 	Keypress: t
+71.2314 	EXP 	fixation: autoDraw = False
+71.2314 	EXP 	text: autoDraw = False
+71.2314 	EXP 	text: height = np.float64(0.05)
+71.2314 	EXP 	text: height = np.float64(0.05)
+71.2314 	EXP 	text: height = np.float64(0.05)
+71.2314 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+71.2314 	EXP 	fixation: autoDraw = True
+71.4690 	EXP 	Device response: <KeyPress from None: t=71.21770699997433, value=t, duration=0.2348307000938803>
+72.2366 	INFO 	Keyboard events cleared
+72.2364 	EXP 	fixation: autoDraw = False
+72.2364 	EXP 	text: autoDraw = True
+72.9511 	EXP 	Device response: <KeyPress from None: t=72.94362189993262, value=l, duration=None>
+72.9515 	EXP 	New trial (rep=3, index=0): <Trial 21 (0 in rep 3) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 21, 'thisTrialN': 0, 'thisRepN': 3}>
+72.9568 	DATA 	Keypress: l
+72.9675 	EXP 	fixation: autoDraw = False
+72.9675 	EXP 	text: autoDraw = False
+72.9675 	EXP 	text: height = np.float64(0.05)
+72.9675 	EXP 	text: height = np.float64(0.05)
+72.9675 	EXP 	text: height = np.float64(0.05)
+72.9675 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+72.9675 	EXP 	fixation: autoDraw = True
+73.1545 	EXP 	Device response: <KeyPress from None: t=72.94362189993262, value=l, duration=0.20471800002269447>
+73.9528 	INFO 	Keyboard events cleared
+73.9527 	EXP 	text: autoDraw = True
+73.9685 	EXP 	fixation: autoDraw = False
+74.4879 	EXP 	Device response: <KeyPress from None: t=74.48734869994223, value=l, duration=None>
+74.4883 	EXP 	New trial (rep=3, index=1): <Trial 22 (1 in rep 3) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 22, 'thisTrialN': 1, 'thisRepN': 3}>
+74.4933 	DATA 	Keypress: l
+74.5033 	EXP 	fixation: autoDraw = False
+74.5033 	EXP 	text: autoDraw = False
+74.5033 	EXP 	text: height = np.float64(0.05)
+74.5033 	EXP 	text: height = np.float64(0.05)
+74.5033 	EXP 	text: height = np.float64(0.05)
+74.5033 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+74.5033 	EXP 	fixation: autoDraw = True
+74.6876 	EXP 	Device response: <KeyPress from None: t=74.48734869994223, value=l, duration=0.1980435000732541>
+75.4891 	INFO 	Keyboard events cleared
+75.4890 	EXP 	text: autoDraw = True
+75.5056 	EXP 	fixation: autoDraw = False
+76.0888 	EXP 	Device response: <KeyPress from None: t=76.08292630012147, value=t, duration=None>
+76.0891 	EXP 	New trial (rep=3, index=2): <Trial 23 (2 in rep 3) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 23, 'thisTrialN': 2, 'thisRepN': 3}>
+76.0936 	DATA 	Keypress: t
+76.1047 	EXP 	fixation: autoDraw = False
+76.1047 	EXP 	text: autoDraw = False
+76.1047 	EXP 	text: height = np.float64(0.05)
+76.1047 	EXP 	text: height = np.float64(0.05)
+76.1047 	EXP 	text: height = np.float64(0.05)
+76.1047 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+76.1047 	EXP 	fixation: autoDraw = True
+76.2893 	EXP 	Device response: <KeyPress from None: t=76.08292630012147, value=t, duration=0.18963409983552992>
+77.0893 	INFO 	Keyboard events cleared
+77.0891 	EXP 	text: autoDraw = True
+77.1065 	EXP 	fixation: autoDraw = False
+77.6730 	EXP 	Device response: <KeyPress from None: t=77.66142520005815, value=l, duration=None>
+77.6734 	EXP 	New trial (rep=3, index=3): <Trial 24 (3 in rep 3) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 24, 'thisTrialN': 3, 'thisRepN': 3}>
+77.6788 	DATA 	Keypress: l
+77.6900 	EXP 	fixation: autoDraw = False
+77.6900 	EXP 	text: autoDraw = False
+77.6900 	EXP 	text: height = np.float64(0.05)
+77.6900 	EXP 	text: height = np.float64(0.05)
+77.6900 	EXP 	text: height = np.float64(0.05)
+77.6900 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+77.6900 	EXP 	fixation: autoDraw = True
+77.8565 	EXP 	Device response: <KeyPress from None: t=77.66142520005815, value=l, duration=0.19052729988470674>
+78.6743 	INFO 	Keyboard events cleared
+78.6742 	EXP 	text: autoDraw = True
+78.6912 	EXP 	fixation: autoDraw = False
+79.1088 	EXP 	Device response: <KeyPress from None: t=79.09481790009886, value=t, duration=None>
+79.1092 	EXP 	New trial (rep=3, index=4): <Trial 25 (4 in rep 3) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 25, 'thisTrialN': 4, 'thisRepN': 3}>
+79.1135 	DATA 	Keypress: t
+79.1251 	EXP 	fixation: autoDraw = False
+79.1251 	EXP 	text: autoDraw = False
+79.1251 	EXP 	text: height = np.float64(0.05)
+79.1251 	EXP 	text: height = np.float64(0.05)
+79.1251 	EXP 	text: height = np.float64(0.05)
+79.1251 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+79.1251 	EXP 	fixation: autoDraw = True
+79.3431 	EXP 	Device response: <KeyPress from None: t=79.09481790009886, value=t, duration=0.23898099991492927>
+80.1106 	INFO 	Keyboard events cleared
+80.1104 	EXP 	text: autoDraw = True
+80.1265 	EXP 	fixation: autoDraw = False
+80.4595 	EXP 	Device response: <KeyPress from None: t=80.44724530004896, value=t, duration=None>
+80.4599 	EXP 	New trial (rep=3, index=5): <Trial 26 (5 in rep 3) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 26, 'thisTrialN': 5, 'thisRepN': 3}>
+80.4657 	DATA 	Keypress: t
+80.4771 	EXP 	fixation: autoDraw = False
+80.4771 	EXP 	text: autoDraw = False
+80.4771 	EXP 	text: height = np.float64(0.05)
+80.4771 	EXP 	text: height = np.float64(0.05)
+80.4771 	EXP 	text: height = np.float64(0.05)
+80.4771 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+80.4771 	EXP 	fixation: autoDraw = True
+80.6433 	EXP 	Device response: <KeyPress from None: t=80.44724530004896, value=t, duration=0.18485839990898967>
+81.4625 	INFO 	Keyboard events cleared
+81.4623 	EXP 	text: autoDraw = True
+81.4802 	EXP 	fixation: autoDraw = False
+81.7301 	EXP 	Device response: <KeyPress from None: t=81.72850640001707, value=t, duration=None>
+81.7305 	EXP 	New trial (rep=3, index=6): <Trial 27 (6 in rep 3) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 27, 'thisTrialN': 6, 'thisRepN': 3}>
+81.7357 	DATA 	Keypress: t
+81.7434 	EXP 	fixation: autoDraw = False
+81.7434 	EXP 	text: autoDraw = False
+81.7434 	EXP 	text: height = np.float64(0.05)
+81.7434 	EXP 	text: height = np.float64(0.05)
+81.7434 	EXP 	text: height = np.float64(0.05)
+81.7434 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+81.7434 	EXP 	fixation: autoDraw = True
+81.9466 	EXP 	Device response: <KeyPress from None: t=81.72850640001707, value=t, duration=0.2013741999398917>
+82.7277 	INFO 	Keyboard events cleared
+82.7276 	EXP 	text: autoDraw = True
+82.7457 	EXP 	fixation: autoDraw = False
+83.1978 	EXP 	Device response: <KeyPress from None: t=83.18879380007274, value=l, duration=None>
+83.1981 	EXP 	New trial (rep=4, index=0): <Trial 28 (0 in rep 4) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 28, 'thisTrialN': 0, 'thisRepN': 4}>
+83.2037 	DATA 	Keypress: l
+83.2113 	EXP 	fixation: autoDraw = False
+83.2113 	EXP 	text: autoDraw = False
+83.2113 	EXP 	text: height = np.float64(0.05)
+83.2113 	EXP 	text: height = np.float64(0.05)
+83.2113 	EXP 	text: height = np.float64(0.05)
+83.2113 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+83.2113 	EXP 	fixation: autoDraw = True
+83.3628 	EXP 	Device response: <KeyPress from None: t=83.18879380007274, value=l, duration=0.16726939985528588>
+84.2133 	INFO 	Keyboard events cleared
+84.2132 	EXP 	fixation: autoDraw = False
+84.2132 	EXP 	text: autoDraw = True
+84.9801 	EXP 	Device response: <KeyPress from None: t=84.97783350013196, value=t, duration=None>
+84.9805 	EXP 	New trial (rep=4, index=1): <Trial 29 (1 in rep 4) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 29, 'thisTrialN': 1, 'thisRepN': 4}>
+84.9852 	DATA 	Keypress: t
+84.9973 	EXP 	fixation: autoDraw = False
+84.9973 	EXP 	text: autoDraw = False
+84.9973 	EXP 	text: height = np.float64(0.05)
+84.9973 	EXP 	text: height = np.float64(0.05)
+84.9973 	EXP 	text: height = np.float64(0.05)
+84.9973 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+84.9973 	EXP 	fixation: autoDraw = True
+85.1481 	EXP 	Device response: <KeyPress from None: t=84.97783350013196, value=t, duration=0.15988289983943105>
+85.9853 	INFO 	Keyboard events cleared
+85.9851 	EXP 	text: autoDraw = True
+85.9993 	EXP 	fixation: autoDraw = False
+86.4500 	EXP 	Device response: <KeyPress from None: t=86.43747309991159, value=t, duration=None>
+86.4504 	EXP 	New trial (rep=4, index=2): <Trial 30 (2 in rep 4) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 30, 'thisTrialN': 2, 'thisRepN': 4}>
+86.4549 	DATA 	Keypress: t
+86.4655 	EXP 	fixation: autoDraw = False
+86.4655 	EXP 	text: autoDraw = False
+86.4655 	EXP 	text: height = np.float64(0.05)
+86.4655 	EXP 	text: height = np.float64(0.05)
+86.4655 	EXP 	text: height = np.float64(0.05)
+86.4655 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+86.4655 	EXP 	fixation: autoDraw = True
+86.6660 	EXP 	Device response: <KeyPress from None: t=86.43747309991159, value=t, duration=0.2254918001126498>
+87.4513 	INFO 	Keyboard events cleared
+87.4511 	EXP 	text: autoDraw = True
+87.4672 	EXP 	fixation: autoDraw = False
+87.9196 	EXP 	Device response: <KeyPress from None: t=87.91901569999754, value=t, duration=None>
+87.9200 	EXP 	New trial (rep=4, index=3): <Trial 31 (3 in rep 4) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 31, 'thisTrialN': 3, 'thisRepN': 4}>
+87.9253 	DATA 	Keypress: t
+87.9330 	EXP 	fixation: autoDraw = False
+87.9330 	EXP 	text: autoDraw = False
+87.9330 	EXP 	text: height = np.float64(0.05)
+87.9330 	EXP 	text: height = np.float64(0.05)
+87.9330 	EXP 	text: height = np.float64(0.05)
+87.9330 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+87.9330 	EXP 	fixation: autoDraw = True
+88.1178 	EXP 	Device response: <KeyPress from None: t=87.91901569999754, value=t, duration=0.19657499995082617>
+88.9360 	INFO 	Keyboard events cleared
+88.9358 	EXP 	fixation: autoDraw = False
+88.9358 	EXP 	text: autoDraw = True
+89.5865 	EXP 	Device response: <KeyPress from None: t=89.5839563999325, value=l, duration=None>
+89.5869 	EXP 	New trial (rep=4, index=4): <Trial 32 (4 in rep 4) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 32, 'thisTrialN': 4, 'thisRepN': 4}>
+89.5921 	DATA 	Keypress: l
+89.6022 	EXP 	fixation: autoDraw = False
+89.6022 	EXP 	text: autoDraw = False
+89.6022 	EXP 	text: height = np.float64(0.05)
+89.6022 	EXP 	text: height = np.float64(0.05)
+89.6022 	EXP 	text: height = np.float64(0.05)
+89.6022 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+89.6022 	EXP 	fixation: autoDraw = True
+89.7521 	EXP 	Device response: <KeyPress from None: t=89.5839563999325, value=l, duration=0.1653331001289189>
+90.5882 	INFO 	Keyboard events cleared
+90.5881 	EXP 	text: autoDraw = True
+90.6057 	EXP 	fixation: autoDraw = False
+91.0909 	EXP 	Device response: <KeyPress from None: t=91.0810106000863, value=l, duration=None>
+91.0913 	EXP 	New trial (rep=4, index=5): <Trial 33 (5 in rep 4) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 33, 'thisTrialN': 5, 'thisRepN': 4}>
+91.0965 	DATA 	Keypress: l
+91.1034 	EXP 	fixation: autoDraw = False
+91.1034 	EXP 	text: autoDraw = False
+91.1034 	EXP 	text: height = np.float64(0.05)
+91.1034 	EXP 	text: height = np.float64(0.05)
+91.1034 	EXP 	text: height = np.float64(0.05)
+91.1034 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+91.1034 	EXP 	fixation: autoDraw = True
+91.2391 	EXP 	Device response: <KeyPress from None: t=91.0810106000863, value=l, duration=0.1546213999390602>
+92.0915 	INFO 	Keyboard events cleared
+92.0913 	EXP 	text: autoDraw = True
+92.1059 	EXP 	fixation: autoDraw = False
+92.5066 	EXP 	Device response: <KeyPress from None: t=92.50468380004168, value=l, duration=None>
+92.5070 	EXP 	New trial (rep=4, index=6): <Trial 34 (6 in rep 4) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 34, 'thisTrialN': 6, 'thisRepN': 4}>
+92.5120 	DATA 	Keypress: l
+92.5233 	EXP 	fixation: autoDraw = False
+92.5233 	EXP 	text: autoDraw = False
+92.5233 	EXP 	text: height = np.float64(0.05)
+92.5233 	EXP 	text: height = np.float64(0.05)
+92.5233 	EXP 	text: height = np.float64(0.05)
+92.5233 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+92.5233 	EXP 	fixation: autoDraw = True
+92.6731 	EXP 	Device response: <KeyPress from None: t=92.50468380004168, value=l, duration=0.16632329998537898>
+93.5090 	INFO 	Keyboard events cleared
+93.5089 	EXP 	text: autoDraw = True
+93.5260 	EXP 	fixation: autoDraw = False
+94.0422 	EXP 	Device response: <KeyPress from None: t=94.02849110006355, value=t, duration=None>
+94.0425 	EXP 	New trial (rep=5, index=0): <Trial 35 (0 in rep 5) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 35, 'thisTrialN': 0, 'thisRepN': 5}>
+94.0476 	DATA 	Keypress: t
+94.0620 	EXP 	fixation: autoDraw = False
+94.0620 	EXP 	text: autoDraw = False
+94.0620 	EXP 	text: height = np.float64(0.05)
+94.0620 	EXP 	text: height = np.float64(0.05)
+94.0620 	EXP 	text: height = np.float64(0.05)
+94.0620 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+94.0620 	EXP 	fixation: autoDraw = True
+94.2071 	EXP 	Device response: <KeyPress from None: t=94.02849110006355, value=t, duration=0.17061419994570315>
+95.0440 	INFO 	Keyboard events cleared
+95.0438 	EXP 	text: autoDraw = True
+95.0791 	EXP 	fixation: autoDraw = False
+95.5418 	EXP 	Device response: <KeyPress from None: t=95.5315469999332, value=t, duration=None>
+95.5421 	EXP 	New trial (rep=5, index=1): <Trial 36 (1 in rep 5) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 36, 'thisTrialN': 1, 'thisRepN': 5}>
+95.5461 	DATA 	Keypress: t
+95.5594 	EXP 	fixation: autoDraw = False
+95.5594 	EXP 	text: autoDraw = False
+95.5594 	EXP 	text: height = np.float64(0.05)
+95.5594 	EXP 	text: height = np.float64(0.05)
+95.5594 	EXP 	text: height = np.float64(0.05)
+95.5594 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+95.5594 	EXP 	fixation: autoDraw = True
+95.7265 	EXP 	Device response: <KeyPress from None: t=95.5315469999332, value=t, duration=0.18541819998063147>
+96.5449 	INFO 	Keyboard events cleared
+96.5447 	EXP 	text: autoDraw = True
+96.5622 	EXP 	fixation: autoDraw = False
+96.9776 	EXP 	Device response: <KeyPress from None: t=96.96551860007457, value=t, duration=None>
+96.9780 	EXP 	New trial (rep=5, index=2): <Trial 37 (2 in rep 5) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 37, 'thisTrialN': 2, 'thisRepN': 5}>
+96.9846 	DATA 	Keypress: t
+96.9940 	EXP 	fixation: autoDraw = False
+96.9940 	EXP 	text: autoDraw = False
+96.9940 	EXP 	text: height = np.float64(0.05)
+96.9940 	EXP 	text: height = np.float64(0.05)
+96.9940 	EXP 	text: height = np.float64(0.05)
+96.9940 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+96.9940 	EXP 	fixation: autoDraw = True
+97.1447 	EXP 	Device response: <KeyPress from None: t=96.96551860007457, value=t, duration=0.1738258998375386>
+97.9810 	INFO 	Keyboard events cleared
+97.9808 	EXP 	text: autoDraw = True
+97.9944 	EXP 	fixation: autoDraw = False
+98.5811 	EXP 	Device response: <KeyPress from None: t=98.56866230000742, value=t, duration=None>
+98.5815 	EXP 	New trial (rep=5, index=3): <Trial 38 (3 in rep 5) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 38, 'thisTrialN': 3, 'thisRepN': 5}>
+98.5866 	DATA 	Keypress: t
+98.5962 	EXP 	fixation: autoDraw = False
+98.5962 	EXP 	text: autoDraw = False
+98.5962 	EXP 	text: height = np.float64(0.05)
+98.5962 	EXP 	text: height = np.float64(0.05)
+98.5962 	EXP 	text: height = np.float64(0.05)
+98.5962 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+98.5962 	EXP 	fixation: autoDraw = True
+98.7969 	EXP 	Device response: <KeyPress from None: t=98.56866230000742, value=t, duration=0.21448530000634491>
+99.5809 	INFO 	Keyboard events cleared
+99.5807 	EXP 	text: autoDraw = True
+99.5972 	EXP 	fixation: autoDraw = False
+100.0512 	EXP 	Device response: <KeyPress from None: t=100.038624699926, value=l, duration=None>
+100.0516 	EXP 	New trial (rep=5, index=4): <Trial 39 (4 in rep 5) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 39, 'thisTrialN': 4, 'thisRepN': 5}>
+100.0570 	DATA 	Keypress: l
+100.0632 	EXP 	fixation: autoDraw = False
+100.0632 	EXP 	text: autoDraw = False
+100.0632 	EXP 	text: height = np.float64(0.05)
+100.0632 	EXP 	text: height = np.float64(0.05)
+100.0632 	EXP 	text: height = np.float64(0.05)
+100.0632 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+100.0632 	EXP 	fixation: autoDraw = True
+100.2308 	EXP 	Device response: <KeyPress from None: t=100.038624699926, value=l, duration=0.1762984001543373>
+101.0668 	INFO 	Keyboard events cleared
+101.0667 	EXP 	fixation: autoDraw = False
+101.0667 	EXP 	text: autoDraw = True
+101.4517 	DATA 	Keypress: l
+101.4669 	EXP 	Device response: <KeyPress from None: t=101.45040660002269, value=l, duration=None>
+101.4673 	EXP 	New trial (rep=5, index=5): <Trial 40 (5 in rep 5) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 40, 'thisTrialN': 5, 'thisRepN': 5}>
+101.4825 	EXP 	fixation: autoDraw = False
+101.4825 	EXP 	text: autoDraw = False
+101.4825 	EXP 	text: height = np.float64(0.05)
+101.4825 	EXP 	text: height = np.float64(0.05)
+101.4825 	EXP 	text: height = np.float64(0.05)
+101.4825 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+101.4825 	EXP 	fixation: autoDraw = True
+101.6668 	EXP 	Device response: <KeyPress from None: t=101.45040660002269, value=l, duration=0.20504650007933378>
+102.4680 	INFO 	Keyboard events cleared
+102.4678 	EXP 	text: autoDraw = True
+102.4857 	EXP 	fixation: autoDraw = False
+103.5357 	EXP 	Device response: <KeyPress from None: t=103.52158370008692, value=t, duration=None>
+103.5361 	EXP 	New trial (rep=5, index=6): <Trial 41 (6 in rep 5) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 41, 'thisTrialN': 6, 'thisRepN': 5}>
+103.5419 	DATA 	Keypress: t
+103.5521 	EXP 	fixation: autoDraw = False
+103.5521 	EXP 	text: autoDraw = False
+103.5521 	EXP 	text: height = np.float64(0.05)
+103.5521 	EXP 	text: height = np.float64(0.05)
+103.5521 	EXP 	text: height = np.float64(0.05)
+103.5521 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+103.5521 	EXP 	fixation: autoDraw = True
+103.6521 	EXP 	Device response: <KeyPress from None: t=103.52158370008692, value=t, duration=0.11824400001205504>
+104.5377 	INFO 	Keyboard events cleared
+104.5375 	EXP 	text: autoDraw = True
+104.5553 	EXP 	fixation: autoDraw = False
+105.2050 	DATA 	Keypress: l
+105.2206 	EXP 	Device response: <KeyPress from None: t=105.20377069991082, value=l, duration=None>
+105.2210 	EXP 	New trial (rep=6, index=0): <Trial 42 (0 in rep 6) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 42, 'thisTrialN': 0, 'thisRepN': 6}>
+105.2372 	EXP 	fixation: autoDraw = False
+105.2372 	EXP 	text: autoDraw = False
+105.2372 	EXP 	text: height = np.float64(0.05)
+105.2372 	EXP 	text: height = np.float64(0.05)
+105.2372 	EXP 	text: height = np.float64(0.05)
+105.2372 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+105.2372 	EXP 	fixation: autoDraw = True
+105.4036 	EXP 	Device response: <KeyPress from None: t=105.20377069991082, value=l, duration=0.19508660002611578>
+106.2209 	INFO 	Keyboard events cleared
+106.2207 	EXP 	text: autoDraw = True
+106.2379 	EXP 	fixation: autoDraw = False
+107.1064 	DATA 	Keypress: t
+107.1241 	EXP 	Device response: <KeyPress from None: t=107.10536630009301, value=t, duration=None>
+107.1244 	EXP 	New trial (rep=6, index=1): <Trial 43 (1 in rep 6) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 43, 'thisTrialN': 1, 'thisRepN': 6}>
+107.1384 	EXP 	fixation: autoDraw = False
+107.1384 	EXP 	text: autoDraw = False
+107.1384 	EXP 	text: height = np.float64(0.05)
+107.1384 	EXP 	text: height = np.float64(0.05)
+107.1384 	EXP 	text: height = np.float64(0.05)
+107.1384 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+107.1384 	EXP 	fixation: autoDraw = True
+107.3408 	EXP 	Device response: <KeyPress from None: t=107.10536630009301, value=t, duration=0.22345699998550117>
+108.1414 	INFO 	Keyboard events cleared
+108.1412 	EXP 	fixation: autoDraw = False
+108.1412 	EXP 	text: autoDraw = True
+109.3920 	EXP 	Device response: <KeyPress from None: t=109.38154600001872, value=t, duration=None>
+109.3923 	EXP 	New trial (rep=6, index=2): <Trial 44 (2 in rep 6) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 44, 'thisTrialN': 2, 'thisRepN': 6}>
+109.3969 	DATA 	Keypress: t
+109.4077 	EXP 	fixation: autoDraw = False
+109.4077 	EXP 	text: autoDraw = False
+109.4077 	EXP 	text: height = np.float64(0.05)
+109.4077 	EXP 	text: height = np.float64(0.05)
+109.4077 	EXP 	text: height = np.float64(0.05)
+109.4077 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+109.4077 	EXP 	fixation: autoDraw = True
+109.6423 	EXP 	Device response: <KeyPress from None: t=109.38154600001872, value=t, duration=0.24958660011179745>
+110.3945 	INFO 	Keyboard events cleared
+110.3943 	EXP 	text: autoDraw = True
+110.4089 	EXP 	fixation: autoDraw = False
+111.8609 	EXP 	Device response: <KeyPress from None: t=111.85319210006855, value=t, duration=None>
+111.8612 	EXP 	New trial (rep=6, index=3): <Trial 45 (3 in rep 6) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 45, 'thisTrialN': 3, 'thisRepN': 6}>
+111.8676 	DATA 	Keypress: t
+111.8790 	EXP 	fixation: autoDraw = False
+111.8790 	EXP 	text: autoDraw = False
+111.8790 	EXP 	text: height = np.float64(0.05)
+111.8790 	EXP 	text: height = np.float64(0.05)
+111.8790 	EXP 	text: height = np.float64(0.05)
+111.8790 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+111.8790 	EXP 	fixation: autoDraw = True
+112.1109 	EXP 	Device response: <KeyPress from None: t=111.85319210006855, value=t, duration=0.2552869999781251>
+112.8635 	INFO 	Keyboard events cleared
+112.8633 	EXP 	text: autoDraw = True
+112.8806 	EXP 	fixation: autoDraw = False
+113.3955 	EXP 	Device response: <KeyPress from None: t=113.3809770999942, value=l, duration=None>
+113.3958 	EXP 	New trial (rep=6, index=4): <Trial 46 (4 in rep 6) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 46, 'thisTrialN': 4, 'thisRepN': 6}>
+113.4009 	DATA 	Keypress: l
+113.4132 	EXP 	fixation: autoDraw = False
+113.4132 	EXP 	text: autoDraw = False
+113.4132 	EXP 	text: height = np.float64(0.05)
+113.4132 	EXP 	text: height = np.float64(0.05)
+113.4132 	EXP 	text: height = np.float64(0.05)
+113.4132 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+113.4132 	EXP 	fixation: autoDraw = True
+113.6126 	EXP 	Device response: <KeyPress from None: t=113.3809770999942, value=l, duration=0.22157769999466836>
+114.3977 	INFO 	Keyboard events cleared
+114.3975 	EXP 	text: autoDraw = True
+114.4143 	EXP 	fixation: autoDraw = False
+114.8175 	DATA 	Keypress: l
+114.8310 	EXP 	Device response: <KeyPress from None: t=114.81628750008531, value=l, duration=None>
+114.8313 	EXP 	New trial (rep=6, index=5): <Trial 47 (5 in rep 6) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 47, 'thisTrialN': 5, 'thisRepN': 6}>
+114.8476 	EXP 	fixation: autoDraw = False
+114.8476 	EXP 	text: autoDraw = False
+114.8476 	EXP 	text: height = np.float64(0.05)
+114.8476 	EXP 	text: height = np.float64(0.05)
+114.8476 	EXP 	text: height = np.float64(0.05)
+114.8476 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+114.8476 	EXP 	fixation: autoDraw = True
+115.0472 	EXP 	Device response: <KeyPress from None: t=114.81628750008531, value=l, duration=0.2179159999359399>
+115.8321 	INFO 	Keyboard events cleared
+115.8319 	EXP 	text: autoDraw = True
+115.8480 	EXP 	fixation: autoDraw = False
+116.8167 	EXP 	Device response: <KeyPress from None: t=116.80548390001059, value=l, duration=None>
+116.8170 	EXP 	New trial (rep=6, index=6): <Trial 48 (6 in rep 6) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 48, 'thisTrialN': 6, 'thisRepN': 6}>
+116.8209 	DATA 	Keypress: l
+116.8334 	EXP 	fixation: autoDraw = False
+116.8334 	EXP 	text: autoDraw = False
+116.8334 	EXP 	text: height = np.float64(0.05)
+116.8334 	EXP 	text: height = np.float64(0.05)
+116.8334 	EXP 	text: height = np.float64(0.05)
+116.8334 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+116.8334 	EXP 	fixation: autoDraw = True
+117.0335 	EXP 	Device response: <KeyPress from None: t=116.80548390001059, value=l, duration=0.21799960010685027>
+117.8183 	INFO 	Keyboard events cleared
+117.8181 	EXP 	text: autoDraw = True
+117.8343 	EXP 	fixation: autoDraw = False
+118.3017 	EXP 	Device response: <KeyPress from None: t=118.29966929997317, value=t, duration=None>
+118.3020 	EXP 	New trial (rep=7, index=0): <Trial 49 (0 in rep 7) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 49, 'thisTrialN': 0, 'thisRepN': 7}>
+118.3084 	DATA 	Keypress: t
+118.3189 	EXP 	fixation: autoDraw = False
+118.3189 	EXP 	text: autoDraw = False
+118.3189 	EXP 	text: height = np.float64(0.05)
+118.3189 	EXP 	text: height = np.float64(0.05)
+118.3189 	EXP 	text: height = np.float64(0.05)
+118.3189 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+118.3189 	EXP 	fixation: autoDraw = True
+118.5194 	EXP 	Device response: <KeyPress from None: t=118.29966929997317, value=t, duration=0.2153583001345396>
+119.3025 	INFO 	Keyboard events cleared
+119.3023 	EXP 	text: autoDraw = True
+119.3182 	EXP 	fixation: autoDraw = False
+119.8519 	EXP 	Device response: <KeyPress from None: t=119.84598649991676, value=t, duration=None>
+119.8522 	EXP 	New trial (rep=7, index=1): <Trial 50 (1 in rep 7) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 50, 'thisTrialN': 1, 'thisRepN': 7}>
+119.8574 	DATA 	Keypress: t
+119.8697 	EXP 	fixation: autoDraw = False
+119.8697 	EXP 	text: autoDraw = False
+119.8697 	EXP 	text: height = np.float64(0.05)
+119.8697 	EXP 	text: height = np.float64(0.05)
+119.8697 	EXP 	text: height = np.float64(0.05)
+119.8697 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+119.8697 	EXP 	fixation: autoDraw = True
+120.1029 	EXP 	Device response: <KeyPress from None: t=119.84598649991676, value=t, duration=0.24801530013792217>
+120.8546 	INFO 	Keyboard events cleared
+120.8544 	EXP 	text: autoDraw = True
+120.8713 	EXP 	fixation: autoDraw = False
+121.4713 	EXP 	Device response: <KeyPress from None: t=121.4631258000154, value=l, duration=None>
+121.4717 	EXP 	New trial (rep=7, index=2): <Trial 51 (2 in rep 7) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 51, 'thisTrialN': 2, 'thisRepN': 7}>
+121.4779 	DATA 	Keypress: l
+121.4898 	EXP 	fixation: autoDraw = False
+121.4898 	EXP 	text: autoDraw = False
+121.4898 	EXP 	text: height = np.float64(0.05)
+121.4898 	EXP 	text: height = np.float64(0.05)
+121.4898 	EXP 	text: height = np.float64(0.05)
+121.4898 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+121.4898 	EXP 	fixation: autoDraw = True
+121.6723 	EXP 	Device response: <KeyPress from None: t=121.4631258000154, value=l, duration=0.20139600010588765>
+122.4727 	INFO 	Keyboard events cleared
+122.4725 	EXP 	text: autoDraw = True
+122.4907 	EXP 	fixation: autoDraw = False
+123.0577 	EXP 	Device response: <KeyPress from None: t=123.04881560010836, value=t, duration=None>
+123.0580 	EXP 	New trial (rep=7, index=3): <Trial 52 (3 in rep 7) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 52, 'thisTrialN': 3, 'thisRepN': 7}>
+123.0633 	DATA 	Keypress: t
+123.0731 	EXP 	fixation: autoDraw = False
+123.0731 	EXP 	text: autoDraw = False
+123.0731 	EXP 	text: height = np.float64(0.05)
+123.0731 	EXP 	text: height = np.float64(0.05)
+123.0731 	EXP 	text: height = np.float64(0.05)
+123.0731 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+123.0731 	EXP 	fixation: autoDraw = True
+123.3262 	EXP 	Device response: <KeyPress from None: t=123.04881560010836, value=t, duration=0.26139050000347197>
+124.0585 	INFO 	Keyboard events cleared
+124.0583 	EXP 	text: autoDraw = True
+124.0750 	EXP 	fixation: autoDraw = False
+124.5415 	DATA 	Keypress: l
+124.5597 	EXP 	Device response: <KeyPress from None: t=124.54056270001456, value=l, duration=None>
+124.5600 	EXP 	New trial (rep=7, index=4): <Trial 53 (4 in rep 7) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 53, 'thisTrialN': 4, 'thisRepN': 7}>
+124.5763 	EXP 	fixation: autoDraw = False
+124.5763 	EXP 	text: autoDraw = False
+124.5763 	EXP 	text: height = np.float64(0.05)
+124.5763 	EXP 	text: height = np.float64(0.05)
+124.5763 	EXP 	text: height = np.float64(0.05)
+124.5763 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+124.5763 	EXP 	fixation: autoDraw = True
+124.7245 	EXP 	Device response: <KeyPress from None: t=124.54056270001456, value=l, duration=0.16942139994353056>
+125.5764 	INFO 	Keyboard events cleared
+125.5762 	EXP 	fixation: autoDraw = False
+125.5762 	EXP 	text: autoDraw = True
+126.0598 	EXP 	Device response: <KeyPress from None: t=126.05293829995207, value=t, duration=None>
+126.0601 	EXP 	New trial (rep=7, index=5): <Trial 54 (5 in rep 7) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 54, 'thisTrialN': 5, 'thisRepN': 7}>
+126.0657 	DATA 	Keypress: t
+126.0754 	EXP 	fixation: autoDraw = False
+126.0754 	EXP 	text: autoDraw = False
+126.0754 	EXP 	text: height = np.float64(0.05)
+126.0754 	EXP 	text: height = np.float64(0.05)
+126.0754 	EXP 	text: height = np.float64(0.05)
+126.0754 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+126.0754 	EXP 	fixation: autoDraw = True
+126.2769 	EXP 	Device response: <KeyPress from None: t=126.05293829995207, value=t, duration=0.21315930015407503>
+127.0604 	INFO 	Keyboard events cleared
+127.0602 	EXP 	text: autoDraw = True
+127.0773 	EXP 	fixation: autoDraw = False
+127.5983 	DATA 	Keypress: l
+127.6115 	EXP 	Device response: <KeyPress from None: t=127.597690399969, value=l, duration=None>
+127.6119 	EXP 	New trial (rep=7, index=6): <Trial 55 (6 in rep 7) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 55, 'thisTrialN': 6, 'thisRepN': 7}>
+127.6281 	EXP 	fixation: autoDraw = False
+127.6281 	EXP 	text: autoDraw = False
+127.6281 	EXP 	text: height = np.float64(0.05)
+127.6281 	EXP 	text: height = np.float64(0.05)
+127.6281 	EXP 	text: height = np.float64(0.05)
+127.6281 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+127.6281 	EXP 	fixation: autoDraw = True
+127.7443 	EXP 	Device response: <KeyPress from None: t=127.597690399969, value=l, duration=0.13680870016105473>
+128.6130 	INFO 	Keyboard events cleared
+128.6128 	EXP 	text: autoDraw = True
+128.6302 	EXP 	fixation: autoDraw = False
+128.9788 	EXP 	Device response: <KeyPress from None: t=128.9761421000585, value=t, duration=None>
+128.9792 	EXP 	New trial (rep=8, index=0): <Trial 56 (0 in rep 8) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 56, 'thisTrialN': 0, 'thisRepN': 8}>
+128.9848 	DATA 	Keypress: t
+128.9962 	EXP 	fixation: autoDraw = False
+128.9962 	EXP 	text: autoDraw = False
+128.9962 	EXP 	text: height = np.float64(0.05)
+128.9962 	EXP 	text: height = np.float64(0.05)
+128.9962 	EXP 	text: height = np.float64(0.05)
+128.9962 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+128.9962 	EXP 	fixation: autoDraw = True
+129.1467 	EXP 	Device response: <KeyPress from None: t=128.9761421000585, value=t, duration=0.16624749987386167>
+129.9813 	INFO 	Keyboard events cleared
+129.9811 	EXP 	text: autoDraw = True
+129.9980 	EXP 	fixation: autoDraw = False
+130.5662 	EXP 	Device response: <KeyPress from None: t=130.553810399957, value=t, duration=None>
+130.5665 	EXP 	New trial (rep=8, index=1): <Trial 57 (1 in rep 8) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 57, 'thisTrialN': 1, 'thisRepN': 8}>
+130.5718 	DATA 	Keypress: t
+130.5831 	EXP 	fixation: autoDraw = False
+130.5831 	EXP 	text: autoDraw = False
+130.5831 	EXP 	text: height = np.float64(0.05)
+130.5831 	EXP 	text: height = np.float64(0.05)
+130.5831 	EXP 	text: height = np.float64(0.05)
+130.5831 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+130.5831 	EXP 	fixation: autoDraw = True
+130.7156 	EXP 	Device response: <KeyPress from None: t=130.553810399957, value=t, duration=0.16014870000071824>
+131.5821 	INFO 	Keyboard events cleared
+131.5820 	EXP 	text: autoDraw = True
+131.5982 	EXP 	fixation: autoDraw = False
+132.1161 	EXP 	Device response: <KeyPress from None: t=132.1108478999231, value=t, duration=None>
+132.1165 	EXP 	New trial (rep=8, index=2): <Trial 58 (2 in rep 8) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 58, 'thisTrialN': 2, 'thisRepN': 8}>
+132.1221 	DATA 	Keypress: t
+132.1332 	EXP 	fixation: autoDraw = False
+132.1332 	EXP 	text: autoDraw = False
+132.1332 	EXP 	text: height = np.float64(0.05)
+132.1332 	EXP 	text: height = np.float64(0.05)
+132.1332 	EXP 	text: height = np.float64(0.05)
+132.1332 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+132.1332 	EXP 	fixation: autoDraw = True
+132.3176 	EXP 	Device response: <KeyPress from None: t=132.1108478999231, value=t, duration=0.18975960020907223>
+133.1202 	INFO 	Keyboard events cleared
+133.1200 	EXP 	text: autoDraw = True
+133.1337 	EXP 	fixation: autoDraw = False
+133.8857 	EXP 	Device response: <KeyPress from None: t=133.88301090011373, value=l, duration=None>
+133.8860 	EXP 	New trial (rep=8, index=3): <Trial 59 (3 in rep 8) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 59, 'thisTrialN': 3, 'thisRepN': 8}>
+133.8920 	DATA 	Keypress: l
+133.9026 	EXP 	fixation: autoDraw = False
+133.9026 	EXP 	text: autoDraw = False
+133.9026 	EXP 	text: height = np.float64(0.05)
+133.9026 	EXP 	text: height = np.float64(0.05)
+133.9026 	EXP 	text: height = np.float64(0.05)
+133.9026 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+133.9026 	EXP 	fixation: autoDraw = True
+134.1019 	EXP 	Device response: <KeyPress from None: t=133.88301090011373, value=l, duration=0.21221229992806911>
+134.8851 	INFO 	Keyboard events cleared
+134.8850 	EXP 	text: autoDraw = True
+134.9025 	EXP 	fixation: autoDraw = False
+135.4045 	EXP 	Device response: <KeyPress from None: t=135.3923281999305, value=l, duration=None>
+135.4049 	EXP 	New trial (rep=8, index=4): <Trial 60 (4 in rep 8) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 60, 'thisTrialN': 4, 'thisRepN': 8}>
+135.4100 	DATA 	Keypress: l
+135.4218 	EXP 	fixation: autoDraw = False
+135.4218 	EXP 	text: autoDraw = False
+135.4218 	EXP 	text: height = np.float64(0.05)
+135.4218 	EXP 	text: height = np.float64(0.05)
+135.4218 	EXP 	text: height = np.float64(0.05)
+135.4218 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+135.4218 	EXP 	fixation: autoDraw = True
+135.5876 	EXP 	Device response: <KeyPress from None: t=135.3923281999305, value=l, duration=0.18377440003678203>
+136.4063 	INFO 	Keyboard events cleared
+136.4061 	EXP 	text: autoDraw = True
+136.4208 	EXP 	fixation: autoDraw = False
+136.9218 	EXP 	Device response: <KeyPress from None: t=136.91184969991446, value=t, duration=None>
+136.9221 	EXP 	New trial (rep=8, index=5): <Trial 61 (5 in rep 8) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 61, 'thisTrialN': 5, 'thisRepN': 8}>
+136.9265 	DATA 	Keypress: t
+136.9378 	EXP 	fixation: autoDraw = False
+136.9378 	EXP 	text: autoDraw = False
+136.9378 	EXP 	text: height = np.float64(0.05)
+136.9378 	EXP 	text: height = np.float64(0.05)
+136.9378 	EXP 	text: height = np.float64(0.05)
+136.9378 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+136.9378 	EXP 	fixation: autoDraw = True
+137.1905 	EXP 	Device response: <KeyPress from None: t=136.91184969991446, value=t, duration=0.2642654001247138>
+137.9239 	INFO 	Keyboard events cleared
+137.9237 	EXP 	text: autoDraw = True
+137.9409 	EXP 	fixation: autoDraw = False
+138.5579 	EXP 	Device response: <KeyPress from None: t=138.54406099999323, value=l, duration=None>
+138.5583 	EXP 	New trial (rep=8, index=6): <Trial 62 (6 in rep 8) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 62, 'thisTrialN': 6, 'thisRepN': 8}>
+138.5628 	DATA 	Keypress: l
+138.5734 	EXP 	fixation: autoDraw = False
+138.5734 	EXP 	text: autoDraw = False
+138.5734 	EXP 	text: height = np.float64(0.05)
+138.5734 	EXP 	text: height = np.float64(0.05)
+138.5734 	EXP 	text: height = np.float64(0.05)
+138.5734 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+138.5734 	EXP 	fixation: autoDraw = True
+138.7421 	EXP 	Device response: <KeyPress from None: t=138.54406099999323, value=l, duration=0.18871979997493327>
+139.5596 	INFO 	Keyboard events cleared
+139.5594 	EXP 	text: autoDraw = True
+139.5732 	EXP 	fixation: autoDraw = False
+140.0257 	EXP 	Device response: <KeyPress from None: t=140.0117265000008, value=t, duration=None>
+140.0261 	EXP 	New trial (rep=9, index=0): <Trial 63 (0 in rep 9) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 63, 'thisTrialN': 0, 'thisRepN': 9}>
+140.0309 	DATA 	Keypress: t
+140.0415 	EXP 	fixation: autoDraw = False
+140.0415 	EXP 	text: autoDraw = False
+140.0415 	EXP 	text: height = np.float64(0.05)
+140.0415 	EXP 	text: height = np.float64(0.05)
+140.0415 	EXP 	text: height = np.float64(0.05)
+140.0415 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+140.0415 	EXP 	fixation: autoDraw = True
+140.2922 	EXP 	Device response: <KeyPress from None: t=140.0117265000008, value=t, duration=0.27875689999200404>
+141.0264 	INFO 	Keyboard events cleared
+141.0262 	EXP 	text: autoDraw = True
+141.0424 	EXP 	fixation: autoDraw = False
+141.5765 	EXP 	Device response: <KeyPress from None: t=141.5655602000188, value=l, duration=None>
+141.5769 	EXP 	New trial (rep=9, index=1): <Trial 64 (1 in rep 9) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 64, 'thisTrialN': 1, 'thisRepN': 9}>
+141.5817 	DATA 	Keypress: l
+141.5930 	EXP 	fixation: autoDraw = False
+141.5930 	EXP 	text: autoDraw = False
+141.5930 	EXP 	text: height = np.float64(0.05)
+141.5930 	EXP 	text: height = np.float64(0.05)
+141.5930 	EXP 	text: height = np.float64(0.05)
+141.5930 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+141.5930 	EXP 	fixation: autoDraw = True
+141.7611 	EXP 	Device response: <KeyPress from None: t=141.5655602000188, value=l, duration=0.18438649992458522>
+142.5781 	INFO 	Keyboard events cleared
+142.5779 	EXP 	text: autoDraw = True
+142.5949 	EXP 	fixation: autoDraw = False
+142.9788 	EXP 	Device response: <KeyPress from None: t=142.9665137999691, value=t, duration=None>
+142.9791 	EXP 	New trial (rep=9, index=2): <Trial 65 (2 in rep 9) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 65, 'thisTrialN': 2, 'thisRepN': 9}>
+142.9836 	DATA 	Keypress: t
+142.9944 	EXP 	fixation: autoDraw = False
+142.9944 	EXP 	text: autoDraw = False
+142.9944 	EXP 	text: height = np.float64(0.05)
+142.9944 	EXP 	text: height = np.float64(0.05)
+142.9944 	EXP 	text: height = np.float64(0.05)
+142.9944 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+142.9944 	EXP 	fixation: autoDraw = True
+143.1795 	EXP 	Device response: <KeyPress from None: t=142.9665137999691, value=t, duration=0.19715310004539788>
+143.9788 	INFO 	Keyboard events cleared
+143.9786 	EXP 	text: autoDraw = True
+143.9960 	EXP 	fixation: autoDraw = False
+144.4476 	EXP 	Device response: <KeyPress from None: t=144.43494780012406, value=l, duration=None>
+144.4479 	EXP 	New trial (rep=9, index=3): <Trial 66 (3 in rep 9) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 66, 'thisTrialN': 3, 'thisRepN': 9}>
+144.4522 	DATA 	Keypress: l
+144.4638 	EXP 	fixation: autoDraw = False
+144.4638 	EXP 	text: autoDraw = False
+144.4638 	EXP 	text: height = np.float64(0.05)
+144.4638 	EXP 	text: height = np.float64(0.05)
+144.4638 	EXP 	text: height = np.float64(0.05)
+144.4638 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+144.4638 	EXP 	fixation: autoDraw = True
+144.5970 	EXP 	Device response: <KeyPress from None: t=144.43494780012406, value=l, duration=0.14925199979916215>
+145.4475 	INFO 	Keyboard events cleared
+145.4474 	EXP 	text: autoDraw = True
+145.4661 	EXP 	fixation: autoDraw = False
+145.9492 	EXP 	Device response: <KeyPress from None: t=145.93833720008843, value=t, duration=None>
+145.9496 	EXP 	New trial (rep=9, index=4): <Trial 67 (4 in rep 9) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 67, 'thisTrialN': 4, 'thisRepN': 9}>
+145.9540 	DATA 	Keypress: t
+145.9653 	EXP 	fixation: autoDraw = False
+145.9653 	EXP 	text: autoDraw = False
+145.9653 	EXP 	text: height = np.float64(0.05)
+145.9653 	EXP 	text: height = np.float64(0.05)
+145.9653 	EXP 	text: height = np.float64(0.05)
+145.9653 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+145.9653 	EXP 	fixation: autoDraw = True
+146.1334 	EXP 	Device response: <KeyPress from None: t=145.93833720008843, value=t, duration=0.18214829987846315>
+146.9509 	INFO 	Keyboard events cleared
+146.9507 	EXP 	text: autoDraw = True
+146.9648 	EXP 	fixation: autoDraw = False
+147.4524 	EXP 	Device response: <KeyPress from None: t=147.43825559993275, value=t, duration=None>
+147.4528 	EXP 	New trial (rep=9, index=5): <Trial 68 (5 in rep 9) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 68, 'thisTrialN': 5, 'thisRepN': 9}>
+147.4575 	DATA 	Keypress: t
+147.4653 	EXP 	fixation: autoDraw = False
+147.4653 	EXP 	text: autoDraw = False
+147.4653 	EXP 	text: height = np.float64(0.05)
+147.4653 	EXP 	text: height = np.float64(0.05)
+147.4653 	EXP 	text: height = np.float64(0.05)
+147.4653 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+147.4653 	EXP 	fixation: autoDraw = True
+147.6006 	EXP 	Device response: <KeyPress from None: t=147.43825559993275, value=t, duration=0.15568289998918772>
+148.4533 	INFO 	Keyboard events cleared
+148.4531 	EXP 	text: autoDraw = True
+148.4668 	EXP 	fixation: autoDraw = False
+149.2357 	EXP 	Device response: <KeyPress from None: t=149.22106970008463, value=t, duration=None>
+149.2361 	EXP 	New trial (rep=9, index=6): <Trial 69 (6 in rep 9) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 69, 'thisTrialN': 6, 'thisRepN': 9}>
+149.2417 	DATA 	Keypress: t
+149.2510 	EXP 	fixation: autoDraw = False
+149.2510 	EXP 	text: autoDraw = False
+149.2510 	EXP 	text: height = np.float64(0.05)
+149.2510 	EXP 	text: height = np.float64(0.05)
+149.2510 	EXP 	text: height = np.float64(0.05)
+149.2510 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+149.2510 	EXP 	fixation: autoDraw = True
+149.4207 	EXP 	Device response: <KeyPress from None: t=149.22106970008463, value=t, duration=0.19208689988590777>
+150.2381 	INFO 	Keyboard events cleared
+150.2379 	EXP 	text: autoDraw = True
+150.2525 	EXP 	fixation: autoDraw = False
+150.7210 	EXP 	Device response: <KeyPress from None: t=150.7148760999553, value=l, duration=None>
+150.7213 	EXP 	New trial (rep=10, index=0): <Trial 70 (0 in rep 10) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 70, 'thisTrialN': 0, 'thisRepN': 10}>
+150.7255 	DATA 	Keypress: l
+150.7368 	EXP 	fixation: autoDraw = False
+150.7368 	EXP 	text: autoDraw = False
+150.7368 	EXP 	text: height = np.float64(0.05)
+150.7368 	EXP 	text: height = np.float64(0.05)
+150.7368 	EXP 	text: height = np.float64(0.05)
+150.7368 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+150.7368 	EXP 	fixation: autoDraw = True
+150.9214 	EXP 	Device response: <KeyPress from None: t=150.7148760999553, value=l, duration=0.1915033000987023>
+151.7218 	INFO 	Keyboard events cleared
+151.7216 	EXP 	text: autoDraw = True
+151.7374 	EXP 	fixation: autoDraw = False
+152.3558 	EXP 	Device response: <KeyPress from None: t=152.3447990999557, value=t, duration=None>
+152.3562 	EXP 	New trial (rep=10, index=1): <Trial 71 (1 in rep 10) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 71, 'thisTrialN': 1, 'thisRepN': 10}>
+152.3612 	DATA 	Keypress: t
+152.3710 	EXP 	fixation: autoDraw = False
+152.3710 	EXP 	text: autoDraw = False
+152.3710 	EXP 	text: height = np.float64(0.05)
+152.3710 	EXP 	text: height = np.float64(0.05)
+152.3710 	EXP 	text: height = np.float64(0.05)
+152.3710 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+152.3710 	EXP 	fixation: autoDraw = True
+152.4903 	EXP 	Device response: <KeyPress from None: t=152.3447990999557, value=t, duration=0.13716270006261766>
+153.3567 	INFO 	Keyboard events cleared
+153.3566 	EXP 	text: autoDraw = True
+153.3739 	EXP 	fixation: autoDraw = False
+153.9757 	EXP 	Device response: <KeyPress from None: t=153.96323310001753, value=t, duration=None>
+153.9760 	EXP 	New trial (rep=10, index=2): <Trial 72 (2 in rep 10) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 72, 'thisTrialN': 2, 'thisRepN': 10}>
+153.9803 	DATA 	Keypress: t
+153.9889 	EXP 	fixation: autoDraw = False
+153.9889 	EXP 	text: autoDraw = False
+153.9889 	EXP 	text: height = np.float64(0.05)
+153.9889 	EXP 	text: height = np.float64(0.05)
+153.9889 	EXP 	text: height = np.float64(0.05)
+153.9889 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+153.9889 	EXP 	fixation: autoDraw = True
+154.1399 	EXP 	Device response: <KeyPress from None: t=153.96323310001753, value=t, duration=0.16809800011105835>
+154.9759 	INFO 	Keyboard events cleared
+154.9757 	EXP 	text: autoDraw = True
+154.9929 	EXP 	fixation: autoDraw = False
+156.5281 	EXP 	Device response: <KeyPress from None: t=156.52010320010595, value=l, duration=None>
+156.5285 	EXP 	New trial (rep=10, index=3): <Trial 73 (3 in rep 10) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 73, 'thisTrialN': 3, 'thisRepN': 10}>
+156.5343 	DATA 	Keypress: l
+156.5446 	EXP 	fixation: autoDraw = False
+156.5446 	EXP 	text: autoDraw = False
+156.5446 	EXP 	text: height = np.float64(0.05)
+156.5446 	EXP 	text: height = np.float64(0.05)
+156.5446 	EXP 	text: height = np.float64(0.05)
+156.5446 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+156.5446 	EXP 	fixation: autoDraw = True
+156.6943 	EXP 	Device response: <KeyPress from None: t=156.52010320010595, value=l, duration=0.16064249980263412>
+157.5453 	INFO 	Keyboard events cleared
+157.5451 	EXP 	fixation: autoDraw = False
+157.5451 	EXP 	text: autoDraw = True
+158.3952 	EXP 	Device response: <KeyPress from None: t=158.38069000001997, value=l, duration=None>
+158.3956 	EXP 	New trial (rep=10, index=4): <Trial 74 (4 in rep 10) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 74, 'thisTrialN': 4, 'thisRepN': 10}>
+158.4010 	DATA 	Keypress: l
+158.4117 	EXP 	fixation: autoDraw = False
+158.4117 	EXP 	text: autoDraw = False
+158.4117 	EXP 	text: height = np.float64(0.05)
+158.4117 	EXP 	text: height = np.float64(0.05)
+158.4117 	EXP 	text: height = np.float64(0.05)
+158.4117 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+158.4117 	EXP 	fixation: autoDraw = True
+158.5798 	EXP 	Device response: <KeyPress from None: t=158.38069000001997, value=l, duration=0.1863935999572277>
+159.3966 	INFO 	Keyboard events cleared
+159.3964 	EXP 	text: autoDraw = True
+159.4132 	EXP 	fixation: autoDraw = False
+160.1978 	EXP 	Device response: <KeyPress from None: t=160.18849340011366, value=t, duration=None>
+160.1982 	EXP 	New trial (rep=10, index=5): <Trial 75 (5 in rep 10) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 75, 'thisTrialN': 5, 'thisRepN': 10}>
+160.2040 	DATA 	Keypress: t
+160.2151 	EXP 	fixation: autoDraw = False
+160.2151 	EXP 	text: autoDraw = False
+160.2151 	EXP 	text: height = np.float64(0.05)
+160.2151 	EXP 	text: height = np.float64(0.05)
+160.2151 	EXP 	text: height = np.float64(0.05)
+160.2151 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+160.2151 	EXP 	fixation: autoDraw = True
+160.3982 	EXP 	Device response: <KeyPress from None: t=160.18849340011366, value=t, duration=0.20699669979512691>
+161.1981 	INFO 	Keyboard events cleared
+161.1979 	EXP 	text: autoDraw = True
+161.2154 	EXP 	fixation: autoDraw = False
+161.6832 	EXP 	Device response: <KeyPress from None: t=161.6762343000155, value=t, duration=None>
+161.6836 	EXP 	New trial (rep=10, index=6): <Trial 76 (6 in rep 10) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 76, 'thisTrialN': 6, 'thisRepN': 10}>
+161.6889 	DATA 	Keypress: t
+161.6988 	EXP 	fixation: autoDraw = False
+161.6988 	EXP 	text: autoDraw = False
+161.6988 	EXP 	text: height = np.float64(0.05)
+161.6988 	EXP 	text: height = np.float64(0.05)
+161.6988 	EXP 	text: height = np.float64(0.05)
+161.6988 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+161.6988 	EXP 	fixation: autoDraw = True
+161.8846 	EXP 	Device response: <KeyPress from None: t=161.6762343000155, value=t, duration=0.1918005000334233>
+162.6837 	INFO 	Keyboard events cleared
+162.6836 	EXP 	text: autoDraw = True
+162.7008 	EXP 	fixation: autoDraw = False
+163.5036 	EXP 	Device response: <KeyPress from None: t=163.50271190004423, value=l, duration=None>
+163.5040 	EXP 	New trial (rep=11, index=0): <Trial 77 (0 in rep 11) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 77, 'thisTrialN': 0, 'thisRepN': 11}>
+163.5100 	DATA 	Keypress: l
+163.5172 	EXP 	fixation: autoDraw = False
+163.5172 	EXP 	text: autoDraw = False
+163.5172 	EXP 	text: height = np.float64(0.05)
+163.5172 	EXP 	text: height = np.float64(0.05)
+163.5172 	EXP 	text: height = np.float64(0.05)
+163.5172 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+163.5172 	EXP 	fixation: autoDraw = True
+163.7021 	EXP 	Device response: <KeyPress from None: t=163.50271190004423, value=l, duration=0.19655140000395477>
+164.5196 	INFO 	Keyboard events cleared
+164.5194 	EXP 	fixation: autoDraw = False
+164.5194 	EXP 	text: autoDraw = True
+165.1238 	DATA 	Keypress: l
+165.1349 	EXP 	Device response: <KeyPress from None: t=165.1230329000391, value=l, duration=None>
+165.1353 	EXP 	New trial (rep=11, index=1): <Trial 78 (1 in rep 11) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 78, 'thisTrialN': 1, 'thisRepN': 11}>
+165.1523 	EXP 	fixation: autoDraw = False
+165.1523 	EXP 	text: autoDraw = False
+165.1523 	EXP 	text: height = np.float64(0.05)
+165.1523 	EXP 	text: height = np.float64(0.05)
+165.1523 	EXP 	text: height = np.float64(0.05)
+165.1523 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+165.1523 	EXP 	fixation: autoDraw = True
+165.3032 	EXP 	Device response: <KeyPress from None: t=165.1230329000391, value=l, duration=0.16767119988799095>
+166.1377 	INFO 	Keyboard events cleared
+166.1375 	EXP 	text: autoDraw = True
+166.1540 	EXP 	fixation: autoDraw = False
+167.0544 	EXP 	Device response: <KeyPress from None: t=167.05056499992497, value=t, duration=None>
+167.0548 	EXP 	New trial (rep=11, index=2): <Trial 79 (2 in rep 11) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 79, 'thisTrialN': 2, 'thisRepN': 11}>
+167.0610 	DATA 	Keypress: t
+167.0709 	EXP 	fixation: autoDraw = False
+167.0709 	EXP 	text: autoDraw = False
+167.0709 	EXP 	text: height = np.float64(0.05)
+167.0709 	EXP 	text: height = np.float64(0.05)
+167.0709 	EXP 	text: height = np.float64(0.05)
+167.0709 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+167.0709 	EXP 	fixation: autoDraw = True
+167.4222 	EXP 	Device response: <KeyPress from None: t=167.05056499992497, value=t, duration=0.3551096001174301>
+168.0583 	INFO 	Keyboard events cleared
+168.0581 	EXP 	text: autoDraw = True
+168.0723 	EXP 	fixation: autoDraw = False
+168.8066 	EXP 	Device response: <KeyPress from None: t=168.80349540011957, value=l, duration=None>
+168.8070 	EXP 	New trial (rep=11, index=3): <Trial 80 (3 in rep 11) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 80, 'thisTrialN': 3, 'thisRepN': 11}>
+168.8120 	DATA 	Keypress: l
+168.8230 	EXP 	fixation: autoDraw = False
+168.8230 	EXP 	text: autoDraw = False
+168.8230 	EXP 	text: height = np.float64(0.05)
+168.8230 	EXP 	text: height = np.float64(0.05)
+168.8230 	EXP 	text: height = np.float64(0.05)
+168.8230 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+168.8230 	EXP 	fixation: autoDraw = True
+168.9741 	EXP 	Device response: <KeyPress from None: t=168.80349540011957, value=l, duration=0.1597796999849379>
+169.8077 	INFO 	Keyboard events cleared
+169.8076 	EXP 	text: autoDraw = True
+169.8252 	EXP 	fixation: autoDraw = False
+171.4433 	EXP 	Device response: <KeyPress from None: t=171.43411849997938, value=t, duration=None>
+171.4437 	EXP 	New trial (rep=11, index=4): <Trial 81 (4 in rep 11) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 81, 'thisTrialN': 4, 'thisRepN': 11}>
+171.4481 	DATA 	Keypress: t
+171.4590 	EXP 	fixation: autoDraw = False
+171.4590 	EXP 	text: autoDraw = False
+171.4590 	EXP 	text: height = np.float64(0.05)
+171.4590 	EXP 	text: height = np.float64(0.05)
+171.4590 	EXP 	text: height = np.float64(0.05)
+171.4590 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+171.4590 	EXP 	fixation: autoDraw = True
+171.6604 	EXP 	Device response: <KeyPress from None: t=171.43411849997938, value=t, duration=0.2126519000157714>
+172.4436 	INFO 	Keyboard events cleared
+172.4434 	EXP 	text: autoDraw = True
+172.4619 	EXP 	fixation: autoDraw = False
+174.9471 	EXP 	Device response: <KeyPress from None: t=174.93391490005888, value=t, duration=None>
+174.9474 	EXP 	New trial (rep=11, index=5): <Trial 82 (5 in rep 11) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 82, 'thisTrialN': 5, 'thisRepN': 11}>
+174.9528 	DATA 	Keypress: t
+174.9628 	EXP 	fixation: autoDraw = False
+174.9628 	EXP 	text: autoDraw = False
+174.9628 	EXP 	text: height = np.float64(0.05)
+174.9628 	EXP 	text: height = np.float64(0.05)
+174.9628 	EXP 	text: height = np.float64(0.05)
+174.9628 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+174.9628 	EXP 	fixation: autoDraw = True
+175.1466 	EXP 	Device response: <KeyPress from None: t=174.93391490005888, value=t, duration=0.21053429995663464>
+175.9496 	INFO 	Keyboard events cleared
+175.9494 	EXP 	text: autoDraw = True
+175.9645 	EXP 	fixation: autoDraw = False
+176.4316 	EXP 	Device response: <KeyPress from None: t=176.41796929994598, value=l, duration=None>
+176.4319 	EXP 	New trial (rep=11, index=6): <Trial 83 (6 in rep 11) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 83, 'thisTrialN': 6, 'thisRepN': 11}>
+176.4375 	DATA 	Keypress: l
+176.4480 	EXP 	fixation: autoDraw = False
+176.4480 	EXP 	text: autoDraw = False
+176.4480 	EXP 	text: height = np.float64(0.05)
+176.4480 	EXP 	text: height = np.float64(0.05)
+176.4480 	EXP 	text: height = np.float64(0.05)
+176.4480 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+176.4480 	EXP 	fixation: autoDraw = True
+176.6147 	EXP 	Device response: <KeyPress from None: t=176.41796929994598, value=l, duration=0.18431240017525852>
+177.4328 	INFO 	Keyboard events cleared
+177.4326 	EXP 	text: autoDraw = True
+177.4484 	EXP 	fixation: autoDraw = False
+179.1847 	DATA 	Keypress: t
+179.2002 	EXP 	Device response: <KeyPress from None: t=179.1837250001263, value=t, duration=None>
+179.2005 	EXP 	New trial (rep=12, index=0): <Trial 84 (0 in rep 12) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 84, 'thisTrialN': 0, 'thisRepN': 12}>
+179.2194 	EXP 	fixation: autoDraw = False
+179.2194 	EXP 	text: autoDraw = False
+179.2194 	EXP 	text: height = np.float64(0.05)
+179.2194 	EXP 	text: height = np.float64(0.05)
+179.2194 	EXP 	text: height = np.float64(0.05)
+179.2194 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+179.2194 	EXP 	fixation: autoDraw = True
+179.3849 	EXP 	Device response: <KeyPress from None: t=179.1837250001263, value=t, duration=0.19712519994936883>
+180.2033 	INFO 	Keyboard events cleared
+180.2031 	EXP 	text: autoDraw = True
+180.2194 	EXP 	fixation: autoDraw = False
+180.7880 	EXP 	Device response: <KeyPress from None: t=180.7730727000162, value=l, duration=None>
+180.7884 	EXP 	New trial (rep=12, index=1): <Trial 85 (1 in rep 12) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 85, 'thisTrialN': 1, 'thisRepN': 12}>
+180.7942 	DATA 	Keypress: l
+180.8016 	EXP 	fixation: autoDraw = False
+180.8016 	EXP 	text: autoDraw = False
+180.8016 	EXP 	text: height = np.float64(0.05)
+180.8016 	EXP 	text: height = np.float64(0.05)
+180.8016 	EXP 	text: height = np.float64(0.05)
+180.8016 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+180.8016 	EXP 	fixation: autoDraw = True
+180.9527 	EXP 	Device response: <KeyPress from None: t=180.7730727000162, value=l, duration=0.17816550005227327>
+181.7877 	INFO 	Keyboard events cleared
+181.7875 	EXP 	text: autoDraw = True
+181.8055 	EXP 	fixation: autoDraw = False
+182.6885 	EXP 	Device response: <KeyPress from None: t=182.6781063999515, value=t, duration=None>
+182.6888 	EXP 	New trial (rep=12, index=2): <Trial 86 (2 in rep 12) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 86, 'thisTrialN': 2, 'thisRepN': 12}>
+182.6940 	DATA 	Keypress: t
+182.7068 	EXP 	fixation: autoDraw = False
+182.7068 	EXP 	text: autoDraw = False
+182.7068 	EXP 	text: height = np.float64(0.05)
+182.7068 	EXP 	text: height = np.float64(0.05)
+182.7068 	EXP 	text: height = np.float64(0.05)
+182.7068 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+182.7068 	EXP 	fixation: autoDraw = True
+182.8903 	EXP 	Device response: <KeyPress from None: t=182.6781063999515, value=t, duration=0.19610600010491908>
+183.6911 	INFO 	Keyboard events cleared
+183.6909 	EXP 	text: autoDraw = True
+183.7076 	EXP 	fixation: autoDraw = False
+184.3732 	EXP 	Device response: <KeyPress from None: t=184.37154399999417, value=l, duration=None>
+184.3735 	EXP 	New trial (rep=12, index=3): <Trial 87 (3 in rep 12) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 87, 'thisTrialN': 3, 'thisRepN': 12}>
+184.3791 	DATA 	Keypress: l
+184.3916 	EXP 	fixation: autoDraw = False
+184.3916 	EXP 	text: autoDraw = False
+184.3916 	EXP 	text: height = np.float64(0.05)
+184.3916 	EXP 	text: height = np.float64(0.05)
+184.3916 	EXP 	text: height = np.float64(0.05)
+184.3916 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+184.3916 	EXP 	fixation: autoDraw = True
+184.5593 	EXP 	Device response: <KeyPress from None: t=184.37154399999417, value=l, duration=0.18197269993834198>
+185.3746 	INFO 	Keyboard events cleared
+185.3745 	EXP 	text: autoDraw = True
+185.3917 	EXP 	fixation: autoDraw = False
+186.2597 	EXP 	Device response: <KeyPress from None: t=186.25477409991436, value=t, duration=None>
+186.2600 	EXP 	New trial (rep=12, index=4): <Trial 88 (4 in rep 12) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 88, 'thisTrialN': 4, 'thisRepN': 12}>
+186.2643 	DATA 	Keypress: t
+186.2767 	EXP 	fixation: autoDraw = False
+186.2767 	EXP 	text: autoDraw = False
+186.2767 	EXP 	text: height = np.float64(0.05)
+186.2767 	EXP 	text: height = np.float64(0.05)
+186.2767 	EXP 	text: height = np.float64(0.05)
+186.2767 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+186.2767 	EXP 	fixation: autoDraw = True
+186.5100 	EXP 	Device response: <KeyPress from None: t=186.25477409991436, value=t, duration=0.2392503002192825>
+187.2599 	INFO 	Keyboard events cleared
+187.2597 	EXP 	text: autoDraw = True
+187.2782 	EXP 	fixation: autoDraw = False
+188.1287 	EXP 	Device response: <KeyPress from None: t=188.12818480003625, value=l, duration=None>
+188.1291 	EXP 	New trial (rep=12, index=5): <Trial 89 (5 in rep 12) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 89, 'thisTrialN': 5, 'thisRepN': 12}>
+188.1354 	DATA 	Keypress: l
+188.1434 	EXP 	fixation: autoDraw = False
+188.1434 	EXP 	text: autoDraw = False
+188.1434 	EXP 	text: height = np.float64(0.05)
+188.1434 	EXP 	text: height = np.float64(0.05)
+188.1434 	EXP 	text: height = np.float64(0.05)
+188.1434 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+188.1434 	EXP 	fixation: autoDraw = True
+188.3451 	EXP 	Device response: <KeyPress from None: t=188.12818480003625, value=l, duration=0.20803990005515516>
+189.1300 	INFO 	Keyboard events cleared
+189.1298 	EXP 	text: autoDraw = True
+189.1459 	EXP 	fixation: autoDraw = False
+189.8814 	EXP 	Device response: <KeyPress from None: t=189.87430420005694, value=t, duration=None>
+189.8818 	EXP 	New trial (rep=12, index=6): <Trial 90 (6 in rep 12) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 90, 'thisTrialN': 6, 'thisRepN': 12}>
+189.8873 	DATA 	Keypress: t
+189.8951 	EXP 	fixation: autoDraw = False
+189.8951 	EXP 	text: autoDraw = False
+189.8951 	EXP 	text: height = np.float64(0.05)
+189.8951 	EXP 	text: height = np.float64(0.05)
+189.8951 	EXP 	text: height = np.float64(0.05)
+189.8951 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+189.8951 	EXP 	fixation: autoDraw = True
+190.0986 	EXP 	Device response: <KeyPress from None: t=189.87430420005694, value=t, duration=0.21422009984962642>
+190.8810 	INFO 	Keyboard events cleared
+190.8808 	EXP 	text: autoDraw = True
+190.8978 	EXP 	fixation: autoDraw = False
+191.5492 	EXP 	Device response: <KeyPress from None: t=191.54032210004516, value=t, duration=None>
+191.5495 	EXP 	New trial (rep=13, index=0): <Trial 91 (0 in rep 13) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 91, 'thisTrialN': 0, 'thisRepN': 13}>
+191.5543 	DATA 	Keypress: t
+191.5663 	EXP 	fixation: autoDraw = False
+191.5663 	EXP 	text: autoDraw = False
+191.5663 	EXP 	text: height = np.float64(0.05)
+191.5663 	EXP 	text: height = np.float64(0.05)
+191.5663 	EXP 	text: height = np.float64(0.05)
+191.5663 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+191.5663 	EXP 	fixation: autoDraw = True
+191.8650 	EXP 	Device response: <KeyPress from None: t=191.54032210004516, value=t, duration=0.3122684999834746>
+192.5509 	INFO 	Keyboard events cleared
+192.5507 	EXP 	text: autoDraw = True
+192.5656 	EXP 	fixation: autoDraw = False
+193.0835 	EXP 	Device response: <KeyPress from None: t=193.0823933999054, value=t, duration=None>
+193.0838 	EXP 	New trial (rep=13, index=1): <Trial 92 (1 in rep 13) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 92, 'thisTrialN': 1, 'thisRepN': 13}>
+193.0877 	DATA 	Keypress: t
+193.1011 	EXP 	fixation: autoDraw = False
+193.1011 	EXP 	text: autoDraw = False
+193.1011 	EXP 	text: height = np.float64(0.05)
+193.1011 	EXP 	text: height = np.float64(0.05)
+193.1011 	EXP 	text: height = np.float64(0.05)
+193.1011 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+193.1011 	EXP 	fixation: autoDraw = True
+193.3171 	EXP 	Device response: <KeyPress from None: t=193.0823933999054, value=t, duration=0.22930710017681122>
+194.0846 	INFO 	Keyboard events cleared
+194.0845 	EXP 	text: autoDraw = True
+194.1030 	EXP 	fixation: autoDraw = False
+194.7533 	EXP 	Device response: <KeyPress from None: t=194.7499895999208, value=l, duration=None>
+194.7536 	EXP 	New trial (rep=13, index=2): <Trial 93 (2 in rep 13) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 93, 'thisTrialN': 2, 'thisRepN': 13}>
+194.7586 	DATA 	Keypress: l
+194.7671 	EXP 	fixation: autoDraw = False
+194.7671 	EXP 	text: autoDraw = False
+194.7671 	EXP 	text: height = np.float64(0.05)
+194.7671 	EXP 	text: height = np.float64(0.05)
+194.7671 	EXP 	text: height = np.float64(0.05)
+194.7671 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+194.7671 	EXP 	fixation: autoDraw = True
+194.9343 	EXP 	Device response: <KeyPress from None: t=194.7499895999208, value=l, duration=0.18013480002991855>
+195.7530 	INFO 	Keyboard events cleared
+195.7528 	EXP 	text: autoDraw = True
+195.7706 	EXP 	fixation: autoDraw = False
+196.2559 	EXP 	Device response: <KeyPress from None: t=196.2547907999251, value=t, duration=None>
+196.2563 	EXP 	New trial (rep=13, index=3): <Trial 94 (3 in rep 13) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 94, 'thisTrialN': 3, 'thisRepN': 13}>
+196.2619 	DATA 	Keypress: t
+196.2685 	EXP 	fixation: autoDraw = False
+196.2685 	EXP 	text: autoDraw = False
+196.2685 	EXP 	text: height = np.float64(0.05)
+196.2685 	EXP 	text: height = np.float64(0.05)
+196.2685 	EXP 	text: height = np.float64(0.05)
+196.2685 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+196.2685 	EXP 	fixation: autoDraw = True
+196.4045 	EXP 	Device response: <KeyPress from None: t=196.2547907999251, value=t, duration=0.14892110018990934>
+197.2576 	INFO 	Keyboard events cleared
+197.2574 	EXP 	text: autoDraw = True
+197.2706 	EXP 	fixation: autoDraw = False
+197.8061 	EXP 	Device response: <KeyPress from None: t=197.80450229998678, value=l, duration=None>
+197.8065 	EXP 	New trial (rep=13, index=4): <Trial 95 (4 in rep 13) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 95, 'thisTrialN': 4, 'thisRepN': 13}>
+197.8122 	DATA 	Keypress: l
+197.8219 	EXP 	fixation: autoDraw = False
+197.8219 	EXP 	text: autoDraw = False
+197.8219 	EXP 	text: height = np.float64(0.05)
+197.8219 	EXP 	text: height = np.float64(0.05)
+197.8219 	EXP 	text: height = np.float64(0.05)
+197.8219 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+197.8219 	EXP 	fixation: autoDraw = True
+197.9735 	EXP 	Device response: <KeyPress from None: t=197.80450229998678, value=l, duration=0.15262710000388324>
+198.8051 	INFO 	Keyboard events cleared
+198.8050 	EXP 	text: autoDraw = True
+198.8221 	EXP 	fixation: autoDraw = False
+199.5754 	EXP 	Device response: <KeyPress from None: t=199.56691480008885, value=l, duration=None>
+199.5759 	EXP 	New trial (rep=13, index=5): <Trial 96 (5 in rep 13) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 96, 'thisTrialN': 5, 'thisRepN': 13}>
+199.5816 	DATA 	Keypress: l
+199.5889 	EXP 	fixation: autoDraw = False
+199.5889 	EXP 	text: autoDraw = False
+199.5889 	EXP 	text: height = np.float64(0.05)
+199.5889 	EXP 	text: height = np.float64(0.05)
+199.5889 	EXP 	text: height = np.float64(0.05)
+199.5889 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+199.5889 	EXP 	fixation: autoDraw = True
+199.7580 	EXP 	Device response: <KeyPress from None: t=199.56691480008885, value=l, duration=0.18713199999183416>
+200.5922 	INFO 	Keyboard events cleared
+200.5920 	EXP 	fixation: autoDraw = False
+200.5920 	EXP 	text: autoDraw = True
+201.2250 	EXP 	Device response: <KeyPress from None: t=201.21415370004252, value=t, duration=None>
+201.2253 	EXP 	New trial (rep=13, index=6): <Trial 97 (6 in rep 13) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 97, 'thisTrialN': 6, 'thisRepN': 13}>
+201.2298 	DATA 	Keypress: t
+201.2435 	EXP 	fixation: autoDraw = False
+201.2435 	EXP 	text: autoDraw = False
+201.2435 	EXP 	text: height = np.float64(0.05)
+201.2435 	EXP 	text: height = np.float64(0.05)
+201.2435 	EXP 	text: height = np.float64(0.05)
+201.2435 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+201.2435 	EXP 	fixation: autoDraw = True
+201.4103 	EXP 	Device response: <KeyPress from None: t=201.21415370004252, value=t, duration=0.1815184000879526>
+202.2257 	INFO 	Keyboard events cleared
+202.2256 	EXP 	text: autoDraw = True
+202.2618 	EXP 	fixation: autoDraw = False
+202.7784 	EXP 	Device response: <KeyPress from None: t=202.763540700078, value=t, duration=None>
+202.7787 	EXP 	New trial (rep=14, index=0): <Trial 98 (0 in rep 14) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 98, 'thisTrialN': 0, 'thisRepN': 14}>
+202.7829 	DATA 	Keypress: t
+202.7945 	EXP 	fixation: autoDraw = False
+202.7945 	EXP 	text: autoDraw = False
+202.7945 	EXP 	text: height = np.float64(0.05)
+202.7945 	EXP 	text: height = np.float64(0.05)
+202.7945 	EXP 	text: height = np.float64(0.05)
+202.7945 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+202.7945 	EXP 	fixation: autoDraw = True
+202.9794 	EXP 	Device response: <KeyPress from None: t=202.763540700078, value=t, duration=0.20955160004086792>
+203.7782 	INFO 	Keyboard events cleared
+203.7780 	EXP 	text: autoDraw = True
+203.7938 	EXP 	fixation: autoDraw = False
+204.5135 	EXP 	Device response: <KeyPress from None: t=204.5114132000599, value=l, duration=None>
+204.5139 	EXP 	New trial (rep=14, index=1): <Trial 99 (1 in rep 14) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 99, 'thisTrialN': 1, 'thisRepN': 14}>
+204.5184 	DATA 	Keypress: l
+204.5310 	EXP 	fixation: autoDraw = False
+204.5310 	EXP 	text: autoDraw = False
+204.5310 	EXP 	text: height = np.float64(0.05)
+204.5310 	EXP 	text: height = np.float64(0.05)
+204.5310 	EXP 	text: height = np.float64(0.05)
+204.5310 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+204.5310 	EXP 	fixation: autoDraw = True
+204.7137 	EXP 	Device response: <KeyPress from None: t=204.5114132000599, value=l, duration=0.18859259993769228>
+205.5127 	INFO 	Keyboard events cleared
+205.5125 	EXP 	text: autoDraw = True
+205.5473 	EXP 	fixation: autoDraw = False
+206.1297 	EXP 	Device response: <KeyPress from None: t=206.1231275999453, value=t, duration=None>
+206.1300 	EXP 	New trial (rep=14, index=2): <Trial 100 (2 in rep 14) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 100, 'thisTrialN': 2, 'thisRepN': 14}>
+206.1351 	DATA 	Keypress: t
+206.1489 	EXP 	fixation: autoDraw = False
+206.1489 	EXP 	text: autoDraw = False
+206.1489 	EXP 	text: height = np.float64(0.05)
+206.1489 	EXP 	text: height = np.float64(0.05)
+206.1489 	EXP 	text: height = np.float64(0.05)
+206.1489 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+206.1489 	EXP 	fixation: autoDraw = True
+206.3154 	EXP 	Device response: <KeyPress from None: t=206.1231275999453, value=t, duration=0.1913364001084119>
+207.1317 	INFO 	Keyboard events cleared
+207.1316 	EXP 	text: autoDraw = True
+207.1483 	EXP 	fixation: autoDraw = False
+207.6328 	EXP 	Device response: <KeyPress from None: t=207.62914060009643, value=l, duration=None>
+207.6332 	EXP 	New trial (rep=14, index=3): <Trial 101 (3 in rep 14) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 101, 'thisTrialN': 3, 'thisRepN': 14}>
+207.6393 	DATA 	Keypress: l
+207.6486 	EXP 	fixation: autoDraw = False
+207.6486 	EXP 	text: autoDraw = False
+207.6486 	EXP 	text: height = np.float64(0.05)
+207.6486 	EXP 	text: height = np.float64(0.05)
+207.6486 	EXP 	text: height = np.float64(0.05)
+207.6486 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+207.6486 	EXP 	fixation: autoDraw = True
+207.8176 	EXP 	Device response: <KeyPress from None: t=207.62914060009643, value=l, duration=0.1719597999472171>
+208.6360 	INFO 	Keyboard events cleared
+208.6358 	EXP 	text: autoDraw = True
+208.6497 	EXP 	fixation: autoDraw = False
+209.0529 	EXP 	Device response: <KeyPress from None: t=209.0491842001211, value=t, duration=None>
+209.0532 	EXP 	New trial (rep=14, index=4): <Trial 102 (4 in rep 14) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 102, 'thisTrialN': 4, 'thisRepN': 14}>
+209.0576 	DATA 	Keypress: t
+209.0662 	EXP 	fixation: autoDraw = False
+209.0662 	EXP 	text: autoDraw = False
+209.0662 	EXP 	text: height = np.float64(0.05)
+209.0662 	EXP 	text: height = np.float64(0.05)
+209.0662 	EXP 	text: height = np.float64(0.05)
+209.0662 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+209.0662 	EXP 	fixation: autoDraw = True
+209.2355 	EXP 	Device response: <KeyPress from None: t=209.0491842001211, value=t, duration=0.17588599980808794>
+210.0503 	INFO 	Keyboard events cleared
+210.0503 	EXP 	text: autoDraw = True
+210.0676 	EXP 	fixation: autoDraw = False
+210.6360 	EXP 	Device response: <KeyPress from None: t=210.6335783000104, value=t, duration=None>
+210.6364 	EXP 	New trial (rep=14, index=5): <Trial 103 (5 in rep 14) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 103, 'thisTrialN': 5, 'thisRepN': 14}>
+210.6422 	DATA 	Keypress: t
+210.6527 	EXP 	fixation: autoDraw = False
+210.6527 	EXP 	text: autoDraw = False
+210.6527 	EXP 	text: height = np.float64(0.05)
+210.6527 	EXP 	text: height = np.float64(0.05)
+210.6527 	EXP 	text: height = np.float64(0.05)
+210.6527 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+210.6527 	EXP 	fixation: autoDraw = True
+210.8704 	EXP 	Device response: <KeyPress from None: t=210.6335783000104, value=t, duration=0.22482139989733696>
+211.6374 	INFO 	Keyboard events cleared
+211.6372 	EXP 	text: autoDraw = True
+211.6540 	EXP 	fixation: autoDraw = False
+212.2534 	EXP 	Device response: <KeyPress from None: t=212.2447621000465, value=l, duration=None>
+212.2537 	EXP 	New trial (rep=14, index=6): <Trial 104 (6 in rep 14) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 104, 'thisTrialN': 6, 'thisRepN': 14}>
+212.2586 	DATA 	Keypress: l
+212.2706 	EXP 	fixation: autoDraw = False
+212.2706 	EXP 	text: autoDraw = False
+212.2706 	EXP 	text: height = np.float64(0.05)
+212.2706 	EXP 	text: height = np.float64(0.05)
+212.2706 	EXP 	text: height = np.float64(0.05)
+212.2706 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+212.2706 	EXP 	fixation: autoDraw = True
+212.4377 	EXP 	Device response: <KeyPress from None: t=212.2447621000465, value=l, duration=0.19191420008428395>
+213.2557 	INFO 	Keyboard events cleared
+213.2555 	EXP 	text: autoDraw = True
+213.2729 	EXP 	fixation: autoDraw = False
+213.7566 	EXP 	Device response: <KeyPress from None: t=213.7541928999126, value=t, duration=None>
+213.7575 	DATA 	Keypress: t
+213.7737 	EXP 	fixation: autoDraw = False
+213.7737 	EXP 	text: autoDraw = False
+213.7740 	EXP 	untitled: status = STOPPED
+213.8174 	INFO 	saved data to 'C:\\Users\\nupur\\OneDrive\\Desktop\\LAB IN PSY\\PSY lab tutorial 6- Delayed discounting\\data\\Subject 01_untitled_2025-11-07_12h05.15.999.csv'
+213.8215 	INFO 	saved data to C:\Users\nupur\OneDrive\Desktop\LAB IN PSY\PSY lab tutorial 6- Delayed discounting\data\Subject 01_untitled_2025-11-07_12h05.15.999.psydat
+214.7590 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+214.8349 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
